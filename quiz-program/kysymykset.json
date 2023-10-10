@@ -1,0 +1,667 @@
+{
+  "kysymykset": [
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on kemiallinen merkki vedelle?",
+      "vastaukset": ["HO", "CO2", "O2", "H2O"],
+      "oikea_vastaus": "H2O"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Kuka keksi sähkölamppun?",
+      "vastaukset": [
+        "Nikola Tesla",
+        "Benjamin Franklin",
+        "Isaac Newton",
+        "Thomas Edison"
+      ],
+      "oikea_vastaus": "Thomas Edison"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mitä tarkoittaa DNA?",
+      "vastaukset": [
+        "Diskreetti nukleotidi-asema",
+        "Digitaalinen neuroaktiivisuus",
+        "Diatsepaani",
+        "Deoksiribonukleiinihappo"
+      ],
+      "oikea_vastaus": "Deoksiribonukleiinihappo"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on Maan lähin tähti?",
+      "vastaukset": ["Kuu", "Mars", "Aurinko", "Venus"],
+      "oikea_vastaus": "Aurinko"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mitä 'www' tarkoittaa verkkosivustoissa?",
+      "vastaukset": [
+        "World Web Worm",
+        "World Wide Web",
+        "Web World Wide",
+        "World Website War"
+      ],
+      "oikea_vastaus": "World Wide Web"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on kevyin alkuaine?",
+      "vastaukset": ["Vety", "Helium", "Hiili", "Happi"],
+      "oikea_vastaus": "Vety"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Kuka oli ensimmäinen ihminen avaruudessa?",
+      "vastaukset": [
+        "John Glenn",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin"
+      ],
+      "oikea_vastaus": "Yuri Gagarin"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mitä tarkoitetaan ohjelmoinnissa 'bugilla'?",
+      "vastaukset": [
+        "Pieni hyönteinen",
+        "Ohjelmoijan lempinimi",
+        "Ohjelman virhe",
+        "Ohjelman ominaisuus"
+      ],
+      "oikea_vastaus": "Ohjelman virhe"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on aurinkopaneelin tarkoitus?",
+      "vastaukset": [
+        "Tuottaa sähköä auringosta",
+        "Kerätä auringonvaloa",
+        "Puhdistaa vettä",
+        "Säilyttää auringon energiaa"
+      ],
+      "oikea_vastaus": "Tuottaa sähköä auringosta"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Kuinka monta planeettaa on aurinkokunnassamme?",
+      "vastaukset": ["8", "9", "10", "12"],
+      "oikea_vastaus": "8"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on Maan kolmanneksi suurin planeetta?",
+      "vastaukset": ["Venus", "Jupiter", "Mars", "Saturnus"],
+      "oikea_vastaus": "Jupiter"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mitä tarkoitetaan 'RNA' tieteen ja biologian yhteydessä?",
+      "vastaukset": [
+        "Riboosi-nukleiinihappo",
+        "Radikaali nukleotidi-asema",
+        "Ribonukleiinihappo",
+        "Rikkidiatsepaani"
+      ],
+      "oikea_vastaus": "Ribonukleiinihappo"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Kuka oli kuuluisa fyysikko, joka laati suhteellisuusteorian?",
+      "vastaukset": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Niels Bohr"
+      ],
+      "oikea_vastaus": "Albert Einstein"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on tietokoneen peruskomponentti, joka suorittaa laskutoimituksia?",
+      "vastaukset": ["Näytönohjain", "Keskusyksikkö", "Tulostin", "Hiiri"],
+      "oikea_vastaus": "Keskusyksikkö"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maapallon suurin luonnonvarainen eläin?",
+      "vastaukset": [
+        "Afrikan elefantti",
+        "Sinivalas",
+        "Afrikan leijona",
+        "Meksikonpunainen pollo"
+      ],
+      "oikea_vastaus": "Sinivalas"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on kaikkein yleisin kaasu maapallon ilmakehässä?",
+      "vastaukset": ["Hiilidioksidi", "Hapen", "Typpi", "Argon"],
+      "oikea_vastaus": "Hapen"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on suurin planeetta aurinkokunnassamme?",
+      "vastaukset": ["Venus", "Mars", "Saturnus", "Jupiter"],
+      "oikea_vastaus": "Jupiter"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mitä tarkoitetaan ohjelmoinnissa 'for-silmukalla'?",
+      "vastaukset": [
+        "Silmukka, joka piirtää kuvioita",
+        "Silmukka, joka lukee tiedostoja",
+        "Silmukka, joka toistaa tietyn lohkon koodia tietyllä määrällä kertoja",
+        "Silmukka, joka lähettää sähköposteja"
+      ],
+      "oikea_vastaus": "Silmukka, joka toistaa tietyn lohkon koodia tietyllä määrällä kertoja"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on ensimmäinen elementti jaksollisessa järjestelmässä?",
+      "vastaukset": ["Hiili", "Vety", "Happi", "Rauta"],
+      "oikea_vastaus": "Vety"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mihin tarkoitukseen käytetään teleskooppia?",
+      "vastaukset": [
+        "Valokuvien ottamiseen",
+        "Tietokonepelien pelaamiseen",
+        "Kaukana olevien kohteiden tarkkailuun",
+        "Musiikin kuuntelemiseen"
+      ],
+      "oikea_vastaus": "Kaukana olevien kohteiden tarkkailuun"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on Heisenbergin epätarkkuusperiaate?",
+      "vastaukset": [
+        "Mahdollisuus tietää tarkka sijainti",
+        "Mahdollisuus tietää tarkka nopeus",
+        "Mahdollisuus mitata tarkka aika",
+        "Mahdollisuus mitata tarkka sijainti ja nopeus"
+      ],
+      "oikea_vastaus": "Mahdollisuus mitata tarkka sijainti ja nopeus"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mitä tarkoitetaan kvanttitietokoneella?",
+      "vastaukset": [
+        "Erittäin tehokasta tietokonetta",
+        "Tietokonetta, joka käyttää kvanttimekaniikkaa",
+        "Kannettavaa tietokonetta",
+        "Suurta tietokonetta"
+      ],
+      "oikea_vastaus": "Tietokonetta, joka käyttää kvanttimekaniikkaa"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on CRISPR-Cas9 ja mihin sitä käytetään?",
+      "vastaukset": [
+        "Uusi kahvimerkki",
+        "Geenien muokkaustyökalu",
+        "GPS-navigaattori",
+        "Ruuanlaittoväline"
+      ],
+      "oikea_vastaus": "Geenien muokkaustyökalu"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on Einsteinitaajuus?",
+      "vastaukset": [
+        "Taajuus, jolla Einstein eli",
+        "Taajuus, jolla valo liikkuu",
+        "Taajuus, jolla kuuluisat tiedemiehet keskustelivat",
+        "Taajuus, jolla radioaallot leviävät"
+      ],
+      "oikea_vastaus": "Taajuus, jolla valo liikkuu"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mitä tarkoittaa Turingin kone?",
+      "vastaukset": [
+        "Lääkärin vastaanottoa",
+        "Ajatuskokeellista tietokonetta",
+        "Turingin palkintoa",
+        "Turingin oppimista"
+      ],
+      "oikea_vastaus": "Ajatuskokeellista tietokonetta"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on ydinreaktorin tarkoitus?",
+      "vastaukset": [
+        "Lämmittää taloja",
+        "Tuottaa sähköä fissiolla",
+        "Valmistaa ydinaseita",
+        "Kasvattaa ydinvoimaa"
+      ],
+      "oikea_vastaus": "Tuottaa sähköä fissiolla"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on Fermi-paradoksi?",
+      "vastaukset": [
+        "Ongelma Fermi-pastassa",
+        "Kysymys, miksi emme ole havainneet avaruusolioita",
+        "Kuuluisan fyysikon lausahdus",
+        "Luku yliopistokursseissa"
+      ],
+      "oikea_vastaus": "Kysymys, miksi emme ole havainneet avaruusolioita"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mitä ovat mustat aukot ja miten ne syntyvät?",
+      "vastaukset": [
+        "Tähtiä, jotka ovat sammuneet",
+        "Supertähtiä",
+        "Tiiviitä alueita avaruudessa, jotka vetävät valoa",
+        "Planeettojen syntyalueita"
+      ],
+      "oikea_vastaus": "Tiiviitä alueita avaruudessa, jotka vetävät valoa"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on kolmannen asteen palovamma?",
+      "vastaukset": [
+        "Lievä palovamma",
+        "Vakava palovamma",
+        "Palovamma, joka ulottuu ihonalaisiin kudoksiin",
+        "Palovamma, joka vaikuttaa vain ihon pintaan"
+      ],
+      "oikea_vastaus": "Palovamma, joka ulottuu ihonalaisiin kudoksiin"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mitä tarkoitetaan 'ilmastonmuutoksen käännekohtana'?",
+      "vastaukset": [
+        "Piste, jossa ilmastonmuutos loppuu",
+        "Kriittinen hetki, jolloin ilmastonmuutos muuttuu peruuttamattomaksi",
+        "Hetki, jolloin ilmasto muuttuu suotuisammaksi",
+        "Ilmastokonferenssin aika"
+      ],
+      "oikea_vastaus": "Kriittinen hetki, jolloin ilmastonmuutos muuttuu peruuttamattomaksi"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on kvanttimekaniikan perustavanlaatuinen epävarmuusperiaate?",
+      "vastaukset": [
+        "Kaikki kvanttihiukkaset ovat epävarmoja",
+        "Et voi koskaan tietää sekä hiukkasen paikkaa että sen liikemäärää tarkasti samanaikaisesti",
+        "Hiukkasen sijainti ja liikemäärä ovat aina täysin tiedossa",
+        "Epävarmuusperiaatetta ei ole olemassa"
+      ],
+      "oikea_vastaus": "Et voi koskaan tietää sekä hiukkasen paikkaa että sen liikemäärää tarkasti samanaikaisesti"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on 'kvantti-entanglement'?",
+      "vastaukset": [
+        "Kaksi kvanttihiiukkasta, jotka ovat toisiinsa sidottuja ja niiden tilojen muuttuminen on välitöntä ja riippuvainen toisistaan",
+        "Kvanttihiukkasten välillä ei ole vuorovaikutusta",
+        "Kvanttihiukkaset ovat aina täysin erotettuja",
+        "Kvanttihiukkasten välillä on liian suuri etäisyys vuorovaikutukseen"
+      ],
+      "oikea_vastaus": "Kaksi kvanttihiiukkasta, jotka ovat toisiinsa sidottuja ja niiden tilojen muuttuminen on välitöntä ja riippuvainen toisistaan"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mitä tarkoitetaan 'biotekniikan kloonaamisella'?",
+      "vastaukset": [
+        "Elävien olentojen kopiointia samanlaisiksi yksilöiksi",
+        "Biologista tekniikkaa ilman kopiointia",
+        "Bakteerien muuntamista",
+        "Elävien olentojen muuntamista robotteiksi"
+      ],
+      "oikea_vastaus": "Elävien olentojen kopiointia samanlaisiksi yksilöiksi"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on 'kvanttien teleportaatio'?",
+      "vastaukset": [
+        "Matkustaminen avaruudessa",
+        "Tietojen siirtäminen yhdestä kvanttihiukkasesta toiseen kaukaisuudessa olevaan kvanttihiukkaseen",
+        "Televisio-ohjelma kvanttimaailmassa",
+        "Kvanttihiukkasten liikkuminen nopeasti"
+      ],
+      "oikea_vastaus": "Tietojen siirtäminen yhdestä kvanttihiukkasesta toiseen kaukaisuudessa olevaan kvanttihiukkaseen"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on 'bioprospektointi' biologian ja ympäristötieteen yhteydessä?",
+      "vastaukset": [
+        "Biologian opiskelua tulevaisuuden tarpeisiin",
+        "Elävien organismien keräämistä ja analysointia uusien lääkkeiden ja materiaalien löytämiseksi",
+        "Biologian soveltamista prosessointiteknologioihin",
+        "Biologista tieteen popularisointia"
+      ],
+      "oikea_vastaus": "Elävien organismien keräämistä ja analysointia uusien lääkkeiden ja materiaalien löytämiseksi"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mitä tarkoitetaan 'Poissonin suhdeluvulla' fysiikassa?",
+      "vastaukset": [
+        "Suhdeluku, joka kuvaa ihmisten liikkumista",
+        "Matemaattinen suhdeluku, joka kuvaa satunnaisia tapahtumia ajassa tai tilassa",
+        "Suhdeluku, joka mittaa äänen voimakkuutta",
+        "Suhdeluku, joka kuvaa avaruuden laajenemista"
+      ],
+      "oikea_vastaus": "Matemaattinen suhdeluku, joka kuvaa satunnaisia tapahtumia ajassa tai tilassa"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mitä tarkoitetaan 'Platonin kappaleilla' geometriassa?",
+      "vastaukset": [
+        "Platonin suunnittelemilla rakennuksilla",
+        "Platonin kirjoittamilla geometrisilla teoksilla",
+        "Säännöllisillä monikulmioilla, jotka muodostuvat samanlaisten tasotasoisten monikulmioiden yhdistelmistä",
+        "Platonin kehittämillä fyysisillä kappaleilla"
+      ],
+      "oikea_vastaus": "Säännöllisillä monikulmioilla, jotka muodostuvat samanlaisten tasotasoisten monikulmioiden yhdistelmistä"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on 'Auringonpimennys' ja miten se tapahtuu?",
+      "vastaukset": [
+        "Tapahtuma, jossa Auringon valo tulee maapallon ilmakehän läpi",
+        "Tapahtuma, jossa Kuu kulkee Maan ja Auringon väliin, estäen Auringon valon saapumisen Maahan",
+        "Tapahtuma, jossa Auringon valo heijastuu Kuu pinnasta",
+        "Tapahtuma, jossa Auringon valo katoaa hetkellisesti"
+      ],
+      "oikea_vastaus": "Tapahtuma, jossa Kuu kulkee Maan ja Auringon väliin, estäen Auringon valon saapumisen Maahan"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on 'kvantti-ohjelma' tietotekniikassa?",
+      "vastaukset": [
+        "Tietokoneohjelma, joka käsittelee vain kokonaislukuja",
+        "Ohjelma, joka käyttää kvanttikryptografiaa tietojen suojaamiseen",
+        "Ohjelma, joka käyttää kvanttitietokoneita laskemiseen",
+        "Ohjelma, joka käsittelee vain kirjainmerkkejä"
+      ],
+      "oikea_vastaus": "Ohjelma, joka käyttää kvanttitietokoneita laskemiseen"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on 'tunnusomainen spektri' astronomiassa?",
+      "vastaukset": [
+        "Spektri, joka ei sisällä lainkaan tunnusmerkkejä",
+        "Tietyn kohteen spektri, joka sisältää ainutlaatuisia linjoja tai piikkejä, jotka voivat paljastaa sen kemiallisen koostumuksen",
+        "Spektri, joka näkyy vain erikoisissa tilanteissa",
+        "Spektri, joka näkyy ainoastaan Maan ilmakehän ulkopuolella"
+      ],
+      "oikea_vastaus": "Tietyn kohteen spektri, joka sisältää ainutlaatuisia linjoja tai piikkejä, jotka voivat paljastaa sen kemiallisen koostumuksen"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mitkä ovat suuret yhtenäisteoriat (GUT) fysiikassa?",
+      "vastaukset": [
+        "Teoriat suurista avaruusjärjestyksistä",
+        "Teoriat suurista yhtenäisistä hiukkasista",
+        "Teoriat suurista maailmoista",
+        "Teoriat suurista voimista"
+      ],
+      "oikea_vastaus": "Teoriat suurista yhtenäisistä hiukkasista"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Miten kvanttitietokoneet eroavat perinteisistä tietokoneista?",
+      "vastaukset": [
+        "Ne ovat nopeampia",
+        "Ne käyttävät kvanttibittejä (qubit)",
+        "Ne ovat pienempiä",
+        "Ne eivät tarvitse sähköä"
+      ],
+      "oikea_vastaus": "Ne käyttävät kvanttibittejä (qubit)"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Selitä Schrödingerin kissa -koe ja sen merkitys kvanttifysiikassa.",
+      "vastaukset": [
+        "Koe, jossa kissa pommitetaan",
+        "Ajatuskoe, joka havainnollistaa kvanttifysiikan superposition käsitettä",
+        "Koe, jossa kissa laitetaan kvanttikoneeseen",
+        "Koe, jossa kissa muutetaan kvanttikissaksi"
+      ],
+      "oikea_vastaus": "Ajatuskoe, joka havainnollistaa kvanttifysiikan superposition käsitettä"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mitä tarkoitetaan Mooren lain kanssa ja miksi se on haastettu?",
+      "vastaukset": [
+        "Laki, joka kieltää elektroniikan kasvun",
+        "Laki, joka ennustaa transistoreiden määrän kaksinkertaistuvan tietyin väliajoin",
+        "Laki, joka kieltää tietokoneiden kehittämisen",
+        "Laki, joka kieltää tietokoneiden myynnin"
+      ],
+      "oikea_vastaus": "Laki, joka ennustaa transistoreiden määrän kaksinkertaistuvan tietyin väliajoin"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on Higgsin bosoni ja miksi se on tärkeä?",
+      "vastaukset": [
+        "Teoreettinen hiukkanen",
+        "Hiukkanen, joka antaa massan muille hiukkasille",
+        "Hiukkanen, joka liittyy aikaan",
+        "Hiukkanen, joka on nopeampi kuin valo"
+      ],
+      "oikea_vastaus": "Hiukkanen, joka antaa massan muille hiukkasille"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Miten CRISPR-Cas9 -tekniikka muuttaa biotekniikan kenttää?",
+      "vastaukset": [
+        "Se parantaa tietokoneiden nopeutta",
+        "Se mahdollistaa geenien muokkaamisen tarkasti",
+        "Se parantaa autojen energiatehokkuutta",
+        "Se lisää aurinkopaneelien tehokkuutta"
+      ],
+      "oikea_vastaus": "Se mahdollistaa geenien muokkaamisen tarkasti"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on kvanttien kryptografia ja miksi se on turvallisempi kuin perinteinen salaaminen?",
+      "vastaukset": [
+        "Kryptografia, joka käyttää kvanttitietokoneita",
+        "Kryptografia, joka perustuu kvanttimekaniikkaan",
+        "Kryptografia, joka on nopeampi",
+        "Kryptografia, joka on helpommin murrettavissa"
+      ],
+      "oikea_vastaus": "Kryptografia, joka perustuu kvanttimekaniikkaan"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Selitä Einsteinitaajuuden vaikutus ajan kulkuun.",
+      "vastaukset": [
+        "Aika hidastuu nopeasti liikkuvilla kappaleilla",
+        "Aika kiihtyy nopeasti liikkuvilla kappaleilla",
+        "Aika pysähtyy nopeasti liikkuvilla kappaleilla",
+        "Aika ei muutu nopeasti liikkuvilla kappaleilla"
+      ],
+      "oikea_vastaus": "Aika hidastuu nopeasti liikkuvilla kappaleilla"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mitä tarkoitetaan aikakoneen teoreettisella mahdollisuudella?",
+      "vastaukset": [
+        "Laite, joka voi matkustaa ajassa",
+        "Teoria, että aikamatkustus on mahdollista",
+        "Aika, joka kulkee hitaammin tietyn kappaleen läheisyydessä",
+        "Kone, joka mittaa ajan kulumista"
+      ],
+      "oikea_vastaus": "Teoria, että aikamatkustus on mahdollista"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka aivot liittyvät tietoisuuteen ja tietoisuuden ongelmaan?",
+      "vastaukset": [
+        "Aivot eivät liity tietoisuuteen",
+        "Aivot ovat tietoisuus",
+        "Aivot ovat tietoisuuden lähde, mutta tietoisuuden olemus on mysteeri",
+        "Tietoisuus ei ole biologista"
+      ],
+      "oikea_vastaus": "Aivot ovat tietoisuuden lähde, mutta tietoisuuden olemus on mysteeri"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mitä tarkoitetaan 'tekoälyn vahvalla' ja 'heikolla' tekoälyllä?",
+      "vastaukset": [
+        "Vahva tekoäly on tietoisuutta omaava, kun taas heikko tekoäly ei ole",
+        "Vahva tekoäly on älykkäämpi kuin heikko tekoäly",
+        "Heikko tekoäly on tietoisuutta omaava, kun taas vahva tekoäly ei ole",
+        "Vahva tekoäly tarkoittaa fyysistä tekoälyä, kun taas heikko tekoäly tarkoittaa ohjelmistoja"
+      ],
+      "oikea_vastaus": "Vahva tekoäly on tietoisuutta omaava, kun taas heikko tekoäly ei ole"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Selitä Bellin epälokaalisuuden käsite kvanttifysiikassa.",
+      "vastaukset": [
+        "Teoria, joka kieltää kvanttitietokoneet",
+        "Ilmiö, jossa kvanttihiukkaset voivat olla yhteydessä toisiinsa kaukana toisistaan",
+        "Kvanttifysiikan peruslaki",
+        "Ilmiö, joka liittyy kvanttikryptografiaan"
+      ],
+      "oikea_vastaus": "Ilmiö, jossa kvanttihiukkaset voivat olla yhteydessä toisiinsa kaukana toisistaan"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mitä tapahtuu, kun musta aukko haihtuu Hawkingin säteilyn vuoksi?",
+      "vastaukset": [
+        "Musta aukko laajenee",
+        "Musta aukko häviää kokonaan",
+        "Musta aukko supistuu ja voi lopulta kadota",
+        "Musta aukko pysyy ennallaan"
+      ],
+      "oikea_vastaus": "Musta aukko supistuu ja voi lopulta kadota"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on Strangen aine ja missä sitä esiintyy?",
+      "vastaukset": [
+        "Lääketieteellinen aine",
+        "Aine, joka on oudon hiukkasen kanssa vuorovaikutuksessa",
+        "Aine, joka on erityisen voimakas",
+        "Aine, joka on yleinen maapallolla"
+      ],
+      "oikea_vastaus": "Aine, joka on oudon hiukkasen kanssa vuorovaikutuksessa"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on nanorobotiikka ja mitä käyttötarkoituksia sillä voi olla?",
+      "vastaukset": [
+        "Pieniä robotteja, jotka käyttävät nanoteknologiaa",
+        "Robotiikkaa, joka on erittäin hidas",
+        "Robotiikkaa, joka on suunniteltu suurille roboteille",
+        "Pieniä robotteja, jotka voivat suorittaa lääketieteellisiä toimenpiteitä kehossa"
+      ],
+      "oikea_vastaus": "Pieniä robotteja, jotka voivat suorittaa lääketieteellisiä toimenpiteitä kehossa"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Miten kvanttitunnelointi toimii?",
+      "vastaukset": [
+        "Kyky matkustaa kvanttimatkustuksen avulla",
+        "Kyky siirtyä kvanttikoneesta toiseen",
+        "Mahdollisuus olla kahdessa paikassa samanaikaisesti kvanttiohjauksen avulla",
+        "Kyky muuttaa kvanttimoodia"
+      ],
+      "oikea_vastaus": "Mahdollisuus olla kahdessa paikassa samanaikaisesti kvanttiohjauksen avulla"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mitä tiedetään pimeän energian luonteesta?",
+      "vastaukset": [
+        "Se on energiamuoto, joka valaisee pimeän",
+        "Se on näkymätön energia",
+        "Se on mysteeri, eikä sitä vielä tunneta tarkasti",
+        "Se on sama kuin pimeä aine"
+      ],
+      "oikea_vastaus": "Se on mysteeri, eikä sitä vielä tunneta tarkasti"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Selitä Kardashevin asteikko ja sen merkitys avaruustutkimuksessa.",
+      "vastaukset": [
+        "Asteikko, joka mittaa aurinkokunnan kokoja",
+        "Asteikko, joka mittaa universumin ikää",
+        "Asteikko, joka mittaa sivilisaatioiden teknologista kehitystasoa",
+        "Asteikko, joka mittaa avaruusasemien kokoa"
+      ],
+      "oikea_vastaus": "Asteikko, joka mittaa sivilisaatioiden teknologista kehitystasoa"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on Grönlannin ja Antarktiksen jäätiköiden sulamisen vaikutus ilmastonmuutokseen?",
+      "vastaukset": [
+        "Ei vaikutusta",
+        "Jäätiköiden sulaminen voi nostaa merenpintaa ja vaikuttaa ilmastoon",
+        "Ilmastonmuutos voi pysäyttää jäätiköiden sulamisen",
+        "Jäätiköiden sulaminen voi viilentää ilmastoa"
+      ],
+      "oikea_vastaus": "Jäätiköiden sulaminen voi nostaa merenpintaa ja vaikuttaa ilmastoon"
+    }
+  ]
+}

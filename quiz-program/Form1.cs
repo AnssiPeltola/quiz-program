@@ -16,5 +16,22 @@ namespace quiz_program
         {
             InitializeComponent();
         }
+
+        private void pelaaNappi_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the PlayGameForm
+            KategoriaValintaForm kategoriaValintaForm = new KategoriaValintaForm();
+
+            // Show the PlayGameForm
+            kategoriaValintaForm.Show();
+
+            // Optionally, hide the main menu form if you don't want it to be visible anymore
+            this.Hide();
+        }
+
+        private void suljeNappi_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
