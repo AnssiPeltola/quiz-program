@@ -4,7 +4,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on kemiallinen merkki vedelle?",
-      "vastaukset": ["HO", "CO2", "O2", "H2O"],
+      "vastaukset": [ "HO", "CO2", "O2", "H2O" ],
       "oikea_vastaus": "H2O"
     },
     {
@@ -35,7 +35,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on Maan lähin tähti?",
-      "vastaukset": ["Kuu", "Mars", "Aurinko", "Venus"],
+      "vastaukset": [ "Kuu", "Mars", "Aurinko", "Venus" ],
       "oikea_vastaus": "Aurinko"
     },
     {
@@ -54,7 +54,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on kevyin alkuaine?",
-      "vastaukset": ["Vety", "Helium", "Hiili", "Happi"],
+      "vastaukset": [ "Vety", "Helium", "Hiili", "Happi" ],
       "oikea_vastaus": "Vety"
     },
     {
@@ -97,14 +97,14 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Kuinka monta planeettaa on aurinkokunnassamme?",
-      "vastaukset": ["8", "9", "10", "12"],
+      "vastaukset": [ "8", "9", "10", "12" ],
       "oikea_vastaus": "8"
     },
     {
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on Maan kolmanneksi suurin planeetta?",
-      "vastaukset": ["Venus", "Jupiter", "Mars", "Saturnus"],
+      "vastaukset": [ "Venus", "Jupiter", "Mars", "Saturnus" ],
       "oikea_vastaus": "Jupiter"
     },
     {
@@ -135,7 +135,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on tietokoneen peruskomponentti, joka suorittaa laskutoimituksia?",
-      "vastaukset": ["Näytönohjain", "Keskusyksikkö", "Tulostin", "Hiiri"],
+      "vastaukset": [ "Näytönohjain", "Keskusyksikkö", "Tulostin", "Hiiri" ],
       "oikea_vastaus": "Keskusyksikkö"
     },
     {
@@ -154,14 +154,14 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on kaikkein yleisin kaasu maapallon ilmakehässä?",
-      "vastaukset": ["Hiilidioksidi", "Hapen", "Typpi", "Argon"],
+      "vastaukset": [ "Hiilidioksidi", "Hapen", "Typpi", "Argon" ],
       "oikea_vastaus": "Hapen"
     },
     {
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on suurin planeetta aurinkokunnassamme?",
-      "vastaukset": ["Venus", "Mars", "Saturnus", "Jupiter"],
+      "vastaukset": [ "Venus", "Mars", "Saturnus", "Jupiter" ],
       "oikea_vastaus": "Jupiter"
     },
     {
@@ -180,7 +180,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on ensimmäinen elementti jaksollisessa järjestelmässä?",
-      "vastaukset": ["Hiili", "Vety", "Happi", "Rauta"],
+      "vastaukset": [ "Hiili", "Vety", "Happi", "Rauta" ],
       "oikea_vastaus": "Vety"
     },
     {
@@ -662,6 +662,391 @@
         "Jäätiköiden sulaminen voi viilentää ilmastoa"
       ],
       "oikea_vastaus": "Jäätiköiden sulaminen voi nostaa merenpintaa ja vaikuttaa ilmastoon"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin lintu?",
+      "vastaukset": [ "Kotka", "Joutsen", "Strutsi", "Papukaija" ],
+      "oikea_vastaus": "Strutsi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin matelija?",
+      "vastaukset": [ "Käärme", "Kilpikonna", "Krokotiili", "Iguana" ],
+      "oikea_vastaus": "Krokotiili"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Korallikäärme", "Kyykäärme", "Ruoskakäärme", "Kuningaskobra" ],
+      "oikea_vastaus": "Korallikäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on symboli Kiinalaisessa horoskoopissa vuodelle 2023?",
+      "vastaukset": [ "Kani", "Lohikäärme", "Tiikeri", "Kukko" ],
+      "oikea_vastaus": "Kani"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on maailman nopein saalistaja?",
+      "vastaukset": [ "Gepardi", "Leopardi", "Tiikeri", "Leijona" ],
+      "oikea_vastaus": "Gepardi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin merinisäkäs?",
+      "vastaukset": [ "Delfiini", "Valas", "Hylje", "Valkopäämerikotka" ],
+      "oikea_vastaus": "Valas"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin eläin?",
+      "vastaukset": [ "Meduusa", "Ampiainen", "Käärme", "Skorpioni" ],
+      "oikea_vastaus": "Meduusa"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin lintu?",
+      "vastaukset": [ "Kotka", "Joutsen", "Strutsi", "Papukaija" ],
+      "oikea_vastaus": "Strutsi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin matelija?",
+      "vastaukset": [ "Käärme", "Kilpikonna", "Krokotiili", "Iguana" ],
+      "oikea_vastaus": "Krokotiili"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Korallikäärme", "Kyykäärme", "Ruoskakäärme", "Kuningaskobra" ],
+      "oikea_vastaus": "Korallikäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on symboli Kiinalaisessa horoskoopissa vuodelle 2023?",
+      "vastaukset": [ "Kani", "Lohikäärme", "Tiikeri", "Kukko" ],
+      "oikea_vastaus": "Kani"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on maailman nopein saalistaja?",
+      "vastaukset": [ "Gepardi", "Leopardi", "Tiikeri", "Leijona" ],
+      "oikea_vastaus": "Gepardi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin merinisäkäs?",
+      "vastaukset": [ "Delfiini", "Valas", "Hylje", "Valkopäämerikotka" ],
+      "oikea_vastaus": "Valas"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin eläin?",
+      "vastaukset": [ "Meduusa", "Ampiainen", "Käärme", "Skorpioni" ],
+      "oikea_vastaus": "Meduusa"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman nopein lentävä lintu?",
+      "vastaukset": [ "Haukka", "Kondori", "Muuttohaukka", "Västäräkki" ],
+      "oikea_vastaus": "Muuttohaukka"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin matelija?",
+      "vastaukset": [ "Käärme", "Iguana", "Krokotiili", "Merikilpikonna" ],
+      "oikea_vastaus": "Merikilpikonna"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman pienin nisäkäs?",
+      "vastaukset": [ "Hiiri", "Kärpänen", "Lepakko", "Hedelmälepakko" ],
+      "oikea_vastaus": "Hiiri"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta raajaa hämähäkeillä yleensä on?",
+      "vastaukset": [ "4", "6", "8", "10" ],
+      "oikea_vastaus": "8"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin kasvava ruoho?",
+      "vastaukset": [ "Bambu", "Ruoko", "Nurmikko", "Kaisla" ],
+      "oikea_vastaus": "Bambu"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman myrkyllisin hämähäkki?",
+      "vastaukset": [ "Musta leski", "Kellukäärme", "Punainen ruusuhämähäkki", "Vaalea ristikko" ],
+      "oikea_vastaus": "Musta leski"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta lajia pandakarhuja on?",
+      "vastaukset": [ "1", "2", "3", "4" ],
+      "oikea_vastaus": "2"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä valtiossa voit löytää kenguruita villinä elävänä?",
+      "vastaukset": [ "Australia", "Brasilia", "Etelä-Afrikka", "Intia" ],
+      "oikea_vastaus": "Australia"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin lentävä lintu?",
+      "vastaukset": [ "Kondori", "Kotka", "Albatrossi", "Joutsen" ],
+      "oikea_vastaus": "Albatrossi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin saari?",
+      "vastaukset": [ "Grönlanti", "Australia", "Madagaskar", "Borneo" ],
+      "oikea_vastaus": "Grönlanti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta lajia delfiinejä tiedetään olevan?",
+      "vastaukset": [ "5", "10", "20", "40" ],
+      "oikea_vastaus": "40"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Merikäärme", "Ruotsalainen hyytelökäärme", "Kuningaskobra", "Musta mamba" ],
+      "oikea_vastaus": "Merikäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta lajia virtahepoja tiedetään olevan?",
+      "vastaukset": [ "1", "2", "3", "4" ],
+      "oikea_vastaus": "2"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä mantereella voit löytää lemureja villinä elävänä?",
+      "vastaukset": [ "Afrikka", "Aasia", "Australia", "Etelä-Amerikka" ],
+      "oikea_vastaus": "Afrikka"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman myrkyllisin sammakkoeläin?",
+      "vastaukset": [ "Kultaokasammakko", "Nuolihemppa", "Agapadi", "Kuristusmato" ],
+      "oikea_vastaus": "Nuolihemppa"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin sammakkoeläin?",
+      "vastaukset": [ "Rupikonna", "Kultaokasammakko", "Pääskyvuorilepakko", "Goljatti" ],
+      "oikea_vastaus": "Goljatti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa voit löytää Tasmanian tiikereitä?",
+      "vastaukset": [ "Australia", "Uusi-Seelanti", "Indonesia", "Japani" ],
+      "oikea_vastaus": "Australia"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä eläin on maailman suurin peto?",
+      "vastaukset": [ "Leijona", "Tyrannosaurus rex", "Sinivalas", "Hai" ],
+      "oikea_vastaus": "Sinivalas"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman pienin virtahepo laji?",
+      "vastaukset": [ "Afrikan virtahepo", "Pygmivirtahepo", "Isonvirtahepo", "Haitinvirtahepo" ],
+      "oikea_vastaus": "Pygmivirtahepo"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin lintulaji siipiväliä mitattuna?",
+      "vastaukset": [ "Albatrossi", "Kondori", "Joutsen", "Kotka" ],
+      "oikea_vastaus": "Albatrossi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia kameleita tunnetaan?",
+      "vastaukset": [ "2", "3", "4", "5" ],
+      "oikea_vastaus": "3"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin lentävä hyönteinen?",
+      "vastaukset": [ "Kovakuoriainen", "Kaskaat", "Pistoja", "Jättipuutiainen" ],
+      "oikea_vastaus": "Jättipuutiainen"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin matelijalaji?",
+      "vastaukset": [ "Kuningaskobra", "Komodonvaraani", "Krokotiili", "Iguana" ],
+      "oikea_vastaus": "Komodonvaraani"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Ruotsalainen hyytelökäärme", "Musta mamba", "Kuningaskobra", "Merikäärme" ],
+      "oikea_vastaus": "Ruotsalainen hyytelökäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman harvinaisin kissaeläin?",
+      "vastaukset": [ "Tiikeri", "Leopardi", "Lumileopardi", "Leijona" ],
+      "oikea_vastaus": "Lumileopardi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin lentävä ötökkä?",
+      "vastaukset": [ "Pistoja", "Kovakuoriainen", "Heinäsirkka", "Lentomuurahainen" ],
+      "oikea_vastaus": "Pistoja"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia on olemassa Galápagossaarilla?",
+      "vastaukset": [ "10", "20", "30", "40" ],
+      "oikea_vastaus": "30"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman myrkyllisin sieni?",
+      "vastaukset": [ "Kärpässieni", "Suppilovahvero", "Kantarelli", "Herkkutatti" ],
+      "oikea_vastaus": "Kärpässieni"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maanosassa voit löytää aavikkoketun?",
+      "vastaukset": [ "Afrikka", "Australia", "Aasia", "Pohjois-Amerikka" ],
+      "oikea_vastaus": "Afrikka"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman myrkyllisin kasvi?",
+      "vastaukset": [ "Risutonkeroinen", "Maksaruoho", "Atsalea", "Valkohorsma" ],
+      "oikea_vastaus": "Risutonkeroinen"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa voit löytää Galápagossaarten jättiläiskilpikonnia?",
+      "vastaukset": [ "Brasilia", "Ecuador", "Kolumbia", "Peru" ],
+      "oikea_vastaus": "Ecuador"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia flamingoja tunnetaan?",
+      "vastaukset": [ "1", "2", "3", "4" ],
+      "oikea_vastaus": "6"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin kasvinsyöjä?",
+      "vastaukset": [ "Elefantti", "Norsu", "Jättipanda", "Kirahvi" ],
+      "oikea_vastaus": "Kirahvi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä osassa maailmaa voit löytää Galápagossaarten punajalkahöyhenjalokiven?",
+      "vastaukset": [ "Aasia", "Afrikka", "Etelä-Amerikka", "Oseania" ],
+      "oikea_vastaus": "Oseania"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin hämähäkki laji?",
+      "vastaukset": [ "Musta leski", "Kookaburra", "Lentävä hämähäkki", "Isohämähäkki" ],
+      "oikea_vastaus": "Kookaburra"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia on olemassa maailman myrkyllisimpiä sammakkoeläimiä, dart-sammakkoja?",
+      "vastaukset": [ "5", "10", "15", "20" ],
+      "oikea_vastaus": "200"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä valtiossa voit löytää Quokka-nimisiä pussieläimiä?",
+      "vastaukset": [ "Australia", "Uusi-Seelanti", "Indonesia", "Malesia" ],
+      "oikea_vastaus": "Australia"
     }
   ]
 }
