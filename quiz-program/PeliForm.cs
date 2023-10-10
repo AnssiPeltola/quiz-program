@@ -1,50 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
-using System.IO;
 
 namespace quiz_program
 {
     public partial class PeliForm : Form
     {
-        List<Question> questions;
-        string pelaajaNimi;
-        string kategoria;
+        // Define class-level variables
+        List<Question> questions; // List to store all loaded questions
+        string pelaajaNimi; // Player's name
+        string kategoria; // Selected category
 
         public PeliForm(string pelaajaNimi, string kategoria)
         {
             InitializeComponent();
 
             // Load questions from JSON file
-            // this.questions = JsonConvert.DeserializeObject<List<Question>>(File.ReadAllText("kysymykset.json"));
             QuestionRoot questionRoot = JsonConvert.DeserializeObject<QuestionRoot>(File.ReadAllText("kysymykset.json"));
-            List<Question> questions = questionRoot.Questions;
-
+            this.questions = questionRoot.Questions; // Assign questions to class-level variable
             this.pelaajaNimi = pelaajaNimi;
             this.kategoria = kategoria;
         }
 
         private void PeliForm_Load(object sender, EventArgs e)
         {
-
+            // Your initialization code (if any) can be added here
         }
 
-        public class QuestionRoot
-        {
-            [JsonProperty("kysymykset")]
-            public List<Question> Questions { get; set; }
-        }
-
-
-
-        private List<Question> filteredQuestions;
+        private List<Question> filteredQuestions; // List to store questions based on selected category
 
         private void aloitaNappi_Click(object sender, EventArgs e)
         {
@@ -72,11 +58,78 @@ namespace quiz_program
             // Shuffle the answer options randomly
             List<string> shuffledAnswers = question.Vastaukset.OrderBy(x => Guid.NewGuid()).ToList();
 
-            // Populate CheckBox controls with answer options
+            // Create and position buttons for answer options
             for (int i = 0; i < shuffledAnswers.Count; i++)
             {
-                CheckBox checkBox = (CheckBox)this.Controls.Find($"AnswerCheckBox{i + 1}", true)[0];
-                checkBox.Text = shuffledAnswers[i];
+                Button answerButton = new Button();
+                answerButton.Name = $"AnswerButton{i + 1}";
+                answerButton.Text = shuffledAnswers[i];
+                answerButton.Width = 150;
+                answerButton.Height = 30;
+                answerButton.Top = 150 + i * 40;
+                answerButton.Left = 50;
+
+                // Add a click event handler to the button
+                answerButton.Click += AnswerButton_Click;
+
+                this.Controls.Add(answerButton);
+            }
+        }
+
+        private void AnswerButton_Click(object sender, EventArgs e)
+        {
+            Button clickedButton = sender as Button;
+
+            if (clickedButton == null)
+            {
+                return;
+            }
+
+            string selectedAnswer = clickedButton.Text;
+
+            // Get the correct answer for the current question
+            string correctAnswer = filteredQuestions[0].OikeaVastaus;
+
+            if (selectedAnswer == correctAnswer)
+            {
+                MessageBox.Show("Correct answer!");
+            }
+            else
+            {
+                MessageBox.Show($"Incorrect answer. The correct answer is: {correctAnswer}");
+            }
+
+            // Clear the buttons and move to the next question
+            ClearAnswerButtons();
+            NextQuestion();
+        }
+
+        private void ClearAnswerButtons()
+        {
+            // Remove all answer buttons from the form
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button answerButton && answerButton.Name.StartsWith("AnswerButton"))
+                {
+                    this.Controls.Remove(control);
+                }
+            }
+        }
+
+        private void NextQuestion()
+        {
+            // Remove the current question from the list
+            filteredQuestions.RemoveAt(0);
+
+            if (filteredQuestions.Count > 0)
+            {
+                // Display the next question
+                DisplayQuestion(filteredQuestions[0]);
+            }
+            else
+            {
+                MessageBox.Show("Quiz completed!");
+                // Handle quiz completion here
             }
         }
     }
@@ -89,6 +142,4 @@ namespace quiz_program
         public List<string> Vastaukset { get; set; }
         public string OikeaVastaus { get; set; }
     }
-
-
 }

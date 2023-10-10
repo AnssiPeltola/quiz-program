@@ -45,7 +45,7 @@
             // kysymysLabel
             // 
             this.kysymysLabel.AutoSize = true;
-            this.kysymysLabel.Location = new System.Drawing.Point(479, 269);
+            this.kysymysLabel.Location = new System.Drawing.Point(411, 154);
             this.kysymysLabel.Name = "kysymysLabel";
             this.kysymysLabel.Size = new System.Drawing.Size(44, 16);
             this.kysymysLabel.TabIndex = 1;
