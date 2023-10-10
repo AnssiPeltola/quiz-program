@@ -4,7 +4,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on kemiallinen merkki vedelle?",
-      "vastaukset": ["HO", "CO2", "O2", "H2O"],
+      "vastaukset": [ "HO", "CO2", "O2", "H2O" ],
       "oikea_vastaus": "H2O"
     },
     {
@@ -35,7 +35,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on Maan lähin tähti?",
-      "vastaukset": ["Kuu", "Mars", "Aurinko", "Venus"],
+      "vastaukset": [ "Kuu", "Mars", "Aurinko", "Venus" ],
       "oikea_vastaus": "Aurinko"
     },
     {
@@ -54,7 +54,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on kevyin alkuaine?",
-      "vastaukset": ["Vety", "Helium", "Hiili", "Happi"],
+      "vastaukset": [ "Vety", "Helium", "Hiili", "Happi" ],
       "oikea_vastaus": "Vety"
     },
     {
@@ -97,14 +97,14 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Kuinka monta planeettaa on aurinkokunnassamme?",
-      "vastaukset": ["8", "9", "10", "12"],
+      "vastaukset": [ "8", "9", "10", "12" ],
       "oikea_vastaus": "8"
     },
     {
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on Maan kolmanneksi suurin planeetta?",
-      "vastaukset": ["Venus", "Jupiter", "Mars", "Saturnus"],
+      "vastaukset": [ "Venus", "Jupiter", "Mars", "Saturnus" ],
       "oikea_vastaus": "Jupiter"
     },
     {
@@ -135,7 +135,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on tietokoneen peruskomponentti, joka suorittaa laskutoimituksia?",
-      "vastaukset": ["Näytönohjain", "Keskusyksikkö", "Tulostin", "Hiiri"],
+      "vastaukset": [ "Näytönohjain", "Keskusyksikkö", "Tulostin", "Hiiri" ],
       "oikea_vastaus": "Keskusyksikkö"
     },
     {
@@ -154,14 +154,14 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on kaikkein yleisin kaasu maapallon ilmakehässä?",
-      "vastaukset": ["Hiilidioksidi", "Hapen", "Typpi", "Argon"],
+      "vastaukset": [ "Hiilidioksidi", "Hapen", "Typpi", "Argon" ],
       "oikea_vastaus": "Hapen"
     },
     {
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on suurin planeetta aurinkokunnassamme?",
-      "vastaukset": ["Venus", "Mars", "Saturnus", "Jupiter"],
+      "vastaukset": [ "Venus", "Mars", "Saturnus", "Jupiter" ],
       "oikea_vastaus": "Jupiter"
     },
     {
@@ -180,7 +180,7 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on ensimmäinen elementti jaksollisessa järjestelmässä?",
-      "vastaukset": ["Hiili", "Vety", "Happi", "Rauta"],
+      "vastaukset": [ "Hiili", "Vety", "Happi", "Rauta" ],
       "oikea_vastaus": "Vety"
     },
     {
@@ -662,6 +662,811 @@
         "Jäätiköiden sulaminen voi viilentää ilmastoa"
       ],
       "oikea_vastaus": "Jäätiköiden sulaminen voi nostaa merenpintaa ja vaikuttaa ilmastoon"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin lintu?",
+      "vastaukset": [ "Kotka", "Joutsen", "Strutsi", "Papukaija" ],
+      "oikea_vastaus": "Strutsi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin matelija?",
+      "vastaukset": [ "Käärme", "Kilpikonna", "Krokotiili", "Iguana" ],
+      "oikea_vastaus": "Krokotiili"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Korallikäärme", "Kyykäärme", "Ruoskakäärme", "Kuningaskobra" ],
+      "oikea_vastaus": "Korallikäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on symboli Kiinalaisessa horoskoopissa vuodelle 2023?",
+      "vastaukset": [ "Kani", "Lohikäärme", "Tiikeri", "Kukko" ],
+      "oikea_vastaus": "Kani"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on maailman nopein saalistaja?",
+      "vastaukset": [ "Gepardi", "Leopardi", "Tiikeri", "Leijona" ],
+      "oikea_vastaus": "Gepardi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin merinisäkäs?",
+      "vastaukset": [ "Delfiini", "Valas", "Hylje", "Valkopäämerikotka" ],
+      "oikea_vastaus": "Valas"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin eläin?",
+      "vastaukset": [ "Meduusa", "Ampiainen", "Käärme", "Skorpioni" ],
+      "oikea_vastaus": "Meduusa"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin lintu?",
+      "vastaukset": [ "Kotka", "Joutsen", "Strutsi", "Papukaija" ],
+      "oikea_vastaus": "Strutsi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin matelija?",
+      "vastaukset": [ "Käärme", "Kilpikonna", "Krokotiili", "Iguana" ],
+      "oikea_vastaus": "Krokotiili"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Korallikäärme", "Kyykäärme", "Ruoskakäärme", "Kuningaskobra" ],
+      "oikea_vastaus": "Korallikäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin nisäkäs?",
+      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
+      "oikea_vastaus": "Elefantti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on symboli Kiinalaisessa horoskoopissa vuodelle 2023?",
+      "vastaukset": [ "Kani", "Lohikäärme", "Tiikeri", "Kukko" ],
+      "oikea_vastaus": "Kani"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä eläin on maailman nopein saalistaja?",
+      "vastaukset": [ "Gepardi", "Leopardi", "Tiikeri", "Leijona" ],
+      "oikea_vastaus": "Gepardi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin merinisäkäs?",
+      "vastaukset": [ "Delfiini", "Valas", "Hylje", "Valkopäämerikotka" ],
+      "oikea_vastaus": "Valas"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman myrkyllisin eläin?",
+      "vastaukset": [ "Meduusa", "Ampiainen", "Käärme", "Skorpioni" ],
+      "oikea_vastaus": "Meduusa"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman nopein lentävä lintu?",
+      "vastaukset": [ "Haukka", "Kondori", "Muuttohaukka", "Västäräkki" ],
+      "oikea_vastaus": "Muuttohaukka"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin matelija?",
+      "vastaukset": [ "Käärme", "Iguana", "Krokotiili", "Merikilpikonna" ],
+      "oikea_vastaus": "Merikilpikonna"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman pienin nisäkäs?",
+      "vastaukset": [ "Hiiri", "Kärpänen", "Lepakko", "Hedelmälepakko" ],
+      "oikea_vastaus": "Hiiri"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta raajaa hämähäkeillä yleensä on?",
+      "vastaukset": [ "4", "6", "8", "10" ],
+      "oikea_vastaus": "8"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin kasvava ruoho?",
+      "vastaukset": [ "Bambu", "Ruoko", "Nurmikko", "Kaisla" ],
+      "oikea_vastaus": "Bambu"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman myrkyllisin hämähäkki?",
+      "vastaukset": [ "Musta leski", "Kellukäärme", "Punainen ruusuhämähäkki", "Vaalea ristikko" ],
+      "oikea_vastaus": "Musta leski"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta lajia pandakarhuja on?",
+      "vastaukset": [ "1", "2", "3", "4" ],
+      "oikea_vastaus": "2"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä valtiossa voit löytää kenguruita villinä elävänä?",
+      "vastaukset": [ "Australia", "Brasilia", "Etelä-Afrikka", "Intia" ],
+      "oikea_vastaus": "Australia"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin lentävä lintu?",
+      "vastaukset": [ "Kondori", "Kotka", "Albatrossi", "Joutsen" ],
+      "oikea_vastaus": "Albatrossi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin saari?",
+      "vastaukset": [ "Grönlanti", "Australia", "Madagaskar", "Borneo" ],
+      "oikea_vastaus": "Grönlanti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta lajia delfiinejä tiedetään olevan?",
+      "vastaukset": [ "5", "10", "20", "40" ],
+      "oikea_vastaus": "40"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Merikäärme", "Ruotsalainen hyytelökäärme", "Kuningaskobra", "Musta mamba" ],
+      "oikea_vastaus": "Merikäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Kuinka monta lajia virtahepoja tiedetään olevan?",
+      "vastaukset": [ "1", "2", "3", "4" ],
+      "oikea_vastaus": "2"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä mantereella voit löytää lemureja villinä elävänä?",
+      "vastaukset": [ "Afrikka", "Aasia", "Australia", "Etelä-Amerikka" ],
+      "oikea_vastaus": "Afrikka"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman myrkyllisin sammakkoeläin?",
+      "vastaukset": [ "Kultaokasammakko", "Nuolihemppa", "Agapadi", "Kuristusmato" ],
+      "oikea_vastaus": "Nuolihemppa"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin sammakkoeläin?",
+      "vastaukset": [ "Rupikonna", "Kultaokasammakko", "Pääskyvuorilepakko", "Goljatti" ],
+      "oikea_vastaus": "Goljatti"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa voit löytää Tasmanian tiikereitä?",
+      "vastaukset": [ "Australia", "Uusi-Seelanti", "Indonesia", "Japani" ],
+      "oikea_vastaus": "Australia"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä eläin on maailman suurin peto?",
+      "vastaukset": [ "Leijona", "Tyrannosaurus rex", "Sinivalas", "Hai" ],
+      "oikea_vastaus": "Sinivalas"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman pienin virtahepo laji?",
+      "vastaukset": [ "Afrikan virtahepo", "Pygmivirtahepo", "Isonvirtahepo", "Haitinvirtahepo" ],
+      "oikea_vastaus": "Pygmivirtahepo"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin lintulaji siipiväliä mitattuna?",
+      "vastaukset": [ "Albatrossi", "Kondori", "Joutsen", "Kotka" ],
+      "oikea_vastaus": "Albatrossi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia kameleita tunnetaan?",
+      "vastaukset": [ "2", "3", "4", "5" ],
+      "oikea_vastaus": "3"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin lentävä hyönteinen?",
+      "vastaukset": [ "Kovakuoriainen", "Kaskaat", "Pistoja", "Jättipuutiainen" ],
+      "oikea_vastaus": "Jättipuutiainen"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin matelijalaji?",
+      "vastaukset": [ "Kuningaskobra", "Komodonvaraani", "Krokotiili", "Iguana" ],
+      "oikea_vastaus": "Komodonvaraani"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman myrkyllisin käärme?",
+      "vastaukset": [ "Ruotsalainen hyytelökäärme", "Musta mamba", "Kuningaskobra", "Merikäärme" ],
+      "oikea_vastaus": "Ruotsalainen hyytelökäärme"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman harvinaisin kissaeläin?",
+      "vastaukset": [ "Tiikeri", "Leopardi", "Lumileopardi", "Leijona" ],
+      "oikea_vastaus": "Lumileopardi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin lentävä ötökkä?",
+      "vastaukset": [ "Pistoja", "Kovakuoriainen", "Heinäsirkka", "Lentomuurahainen" ],
+      "oikea_vastaus": "Pistoja"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia on olemassa Galápagossaarilla?",
+      "vastaukset": [ "10", "20", "30", "40" ],
+      "oikea_vastaus": "30"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman myrkyllisin sieni?",
+      "vastaukset": [ "Kärpässieni", "Suppilovahvero", "Kantarelli", "Herkkutatti" ],
+      "oikea_vastaus": "Kärpässieni"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maanosassa voit löytää aavikkoketun?",
+      "vastaukset": [ "Afrikka", "Australia", "Aasia", "Pohjois-Amerikka" ],
+      "oikea_vastaus": "Afrikka"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman myrkyllisin kasvi?",
+      "vastaukset": [ "Risutonkeroinen", "Maksaruoho", "Atsalea", "Valkohorsma" ],
+      "oikea_vastaus": "Risutonkeroinen"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa voit löytää Galápagossaarten jättiläiskilpikonnia?",
+      "vastaukset": [ "Brasilia", "Ecuador", "Kolumbia", "Peru" ],
+      "oikea_vastaus": "Ecuador"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia flamingoja tunnetaan?",
+      "vastaukset": [ "1", "2", "3", "4" ],
+      "oikea_vastaus": "6"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin kasvinsyöjä?",
+      "vastaukset": [ "Elefantti", "Norsu", "Jättipanda", "Kirahvi" ],
+      "oikea_vastaus": "Kirahvi"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä osassa maailmaa voit löytää Galápagossaarten punajalkahöyhenjalokiven?",
+      "vastaukset": [ "Aasia", "Afrikka", "Etelä-Amerikka", "Oseania" ],
+      "oikea_vastaus": "Oseania"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin hämähäkki laji?",
+      "vastaukset": [ "Musta leski", "Kookaburra", "Lentävä hämähäkki", "Isohämähäkki" ],
+      "oikea_vastaus": "Kookaburra"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta lajia on olemassa maailman myrkyllisimpiä sammakkoeläimiä, dart-sammakkoja?",
+      "vastaukset": [ "5", "10", "15", "20" ],
+      "oikea_vastaus": "200"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä valtiossa voit löytää Quokka-nimisiä pussieläimiä?",
+      "vastaukset": [ "Australia", "Uusi-Seelanti", "Indonesia", "Malesia" ],
+      "oikea_vastaus": "Australia"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin valtameri?",
+      "vastaukset": ["Tyynimeri", "Atlantin valtameri", "Intian valtameri", "Pohjoinen jäämeri"],
+      "oikea_vastaus": "Tyynimeri"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin manner?",
+      "vastaukset": ["Afrikka", "Aasia", "Etelä-Amerikka", "Pohjois-Amerikka"],
+      "oikea_vastaus": "Aasia"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Missä maanosassa sijaitsee Egypti?",
+      "vastaukset": ["Afrikka", "Aasia", "Eurooppa", "Etelä-Amerikka"],
+      "oikea_vastaus": "Afrikka"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin vuoristoalue?",
+      "vastaukset": ["Andit", "Alpit", "Himalaja", "Rocky Mountains"],
+      "oikea_vastaus": "Himalaja"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman korkein vuori?",
+      "vastaukset": ["K2", "Mount Everest", "Annapurna", "Kilimanjaro"],
+      "oikea_vastaus": "Mount Everest"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin saari?",
+      "vastaukset": ["Grönlanti", "Kreeta", "Madagaskar", "Kuuba"],
+      "oikea_vastaus": "Grönlanti"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Missä maassa sijaitsee Eiffel-torni?",
+      "vastaukset": ["Iso-Britannia", "Ranska", "Italia", "Espanja"],
+      "oikea_vastaus": "Ranska"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin järvialue?",
+      "vastaukset": ["Järvi Superior", "Kaspianmeri", "Pohjanmeri", "Välimerta"],
+      "oikea_vastaus": "Kaspianmeri"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin aavikko?",
+      "vastaukset": ["Gobi-aavikko", "Sahara", "Atacama-aavikko", "Kalifornia-aavikko"],
+      "oikea_vastaus": "Sahara"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman pisin joki?",
+      "vastaukset": ["Niger-joki", "Amazon-joki", "Mississippi-joki", "Niili"],
+      "oikea_vastaus": "Niili"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin valtio pinta-alaltaan?",
+      "vastaukset": ["Kiina", "Venäjä", "Yhdysvallat", "Kanada"],
+      "oikea_vastaus": "Venäjä"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Kuinka monta maanosaa maailmassa on?",
+      "vastaukset": ["3", "5", "7", "9"],
+      "oikea_vastaus": "7"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman syvin valtameri?",
+      "vastaukset": ["Atlantin valtameri", "Intian valtameri", "Tyynimeri", "Arktinen valtameri"],
+      "oikea_vastaus": "Tyynimeri"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Missä maassa sijaitsee Machu Picchu?",
+      "vastaukset": ["Meksiko", "Brasilia", "Peru", "Kolumbia"],
+      "oikea_vastaus": "Peru"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin ekvatoriaalinen sademetsä?",
+      "vastaukset": ["Amazonin sademetsä", "Kongon sademetsä", "Indonesian sademetsä", "Afrikan sademetsä"],
+      "oikea_vastaus": "Amazonin sademetsä"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä maa tunnetaan nimellä 'Aurinkoinen Espanja'?",
+      "vastaukset": ["Espanja", "Italia", "Kreikka", "Turkki"],
+      "oikea_vastaus": "Espanja"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin saarivaltio?",
+      "vastaukset": ["Japani", "Filippiinit", "Indonesia", "Malesia"],
+      "oikea_vastaus": "Indonesia"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman syvin järvi?",
+      "vastaukset": ["Baikal-järvi", "Järvi Superior", "Michigan-järvi", "Ontario-järvi"],
+      "oikea_vastaus": "Baikal-järvi"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on maailman suurin saarimeri?",
+      "vastaukset": ["Karibianmeri", "Egeanmeri", "Itämeri", "Philippine Sea"],
+      "oikea_vastaus": "Itämeri"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "helppo",
+      "kysymys": "Missä maanosassa sijaitsee Sahara-aavikko?",
+      "vastaukset": ["Afrikka", "Aasia", "Etelä-Amerikka", "Australia"],
+      "oikea_vastaus": "Afrikka"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman syvin kohta Mariannen hauta?",
+      "vastaukset": ["10,994 metriä", "8,848 metriä", "12,389 metriä", "9,765 metriä"],
+      "oikea_vastaus": "10,994 metriä"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin saari, joka ei kuulu valtiolle?",
+      "vastaukset": ["Grönlanti", "Madagaskar", "Borneo", "Kreeta"],
+      "oikea_vastaus": "Borneo"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman kapein valtameri?",
+      "vastaukset": ["Pohjoinen jäämeri", "Atlantin valtameri", "Intian valtameri", "Pohjoinen Tyynimeri"],
+      "oikea_vastaus": "Pohjoinen jäämeri"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin tektoninen laatta?",
+      "vastaukset": ["Euraasian laatta", "Tyynenmeren laatta", "Afrikan laatta", "Pohjois-Amerikan laatta"],
+      "oikea_vastaus": "Tyynenmeren laatta"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa sijaitsee suurin osa Amazonin sademetsästä?",
+      "vastaukset": ["Brasilia", "Peru", "Kolumbia", "Venezuela"],
+      "oikea_vastaus": "Brasilia"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman syvin käytetty sukellusveneen sukellus?",
+      "vastaukset": ["10,918 metriä", "7,874 metriä", "12,432 metriä", "9,605 metriä"],
+      "oikea_vastaus": "10,918 metriä"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin mantereella sijaitseva järvi?",
+      "vastaukset": ["Järvi Superior", "Kaspianmeri", "Välimerta", "Järvi Baikal"],
+      "oikea_vastaus": "Kaspianmeri"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman kuivin asuttu paikka?",
+      "vastaukset": ["Atacama-aavikko", "Sahara", "Gobi-aavikko", "Kalaharin aavikko"],
+      "oikea_vastaus": "Atacama-aavikko"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin saari Australiassa?",
+      "vastaukset": ["Tasmania", "Kangaroo Island", "Groote Eylandt", "Fraser Island"],
+      "oikea_vastaus": "Tasmania"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa sijaitsee Gibraltarinsalmi?",
+      "vastaukset": ["Marokko", "Espanja", "Algeria", "Portugali"],
+      "oikea_vastaus": "Espanja"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin saari, joka sijaitsee mannerjään päällä?",
+      "vastaukset": ["Grönlanti", "Islanti", "Kreeta", "Madagaskar"],
+      "oikea_vastaus": "Grönlanti"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman syvin laakso?",
+      "vastaukset": ["Grand Canyon", "Yosemiten laakso", "Chamonixin laakso", "Mariana-haudan laakso"],
+      "oikea_vastaus": "Mariana-haudan laakso"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä maa tunnetaan nimellä 'Tuhat saarta'?",
+      "vastaukset": ["Japani", "Filippiinit", "Indonesia", "Malesia"],
+      "oikea_vastaus": "Indonesia"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa sijaitsee Suezin kanava?",
+      "vastaukset": ["Egypti", "Sudan", "Libya", "Saudi-Arabia"],
+      "oikea_vastaus": "Egypti"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman suurin tulivuori?",
+      "vastaukset": ["Kilauea", "Mount St. Helens", "Mauna Loa", "Vesuvius"],
+      "oikea_vastaus": "Mauna Loa"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa sijaitsee Timbuktun kaupunki?",
+      "vastaukset": ["Ghana", "Nigeria", "Mali", "Togo"],
+      "oikea_vastaus": "Mali"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman korkein vuori Euroopassa?",
+      "vastaukset": ["K2", "Mount Elbrus", "Mont Blanc", "Dufourspitze"],
+      "oikea_vastaus": "Mount Elbrus"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa sijaitsee Angkor Watin temppelikompleksi?",
+      "vastaukset": ["Kambodža", "Thaimaa", "Indonesia", "Laos"],
+      "oikea_vastaus": "Kambodža"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Mikä on maailman syvin järvi Etelä-Amerikassa?",
+      "vastaukset": ["Baikal-järvi", "Järvi Superior", "Titicaca-järvi", "Ontario-järvi"],
+      "oikea_vastaus": "Titicaca-järvi"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "keskivaikea",
+      "kysymys": "Missä maassa sijaitsee Victoria Falls -vesiputous?",
+      "vastaukset": ["Kenia", "Sambia", "Zimbabwe", "Tansania"],
+      "oikea_vastaus": "Zimbabwe"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa sijaitsee Ulan Bator, maailman kylmin pääkaupunki?",
+      "vastaukset": ["Kiina", "Mongolia", "Venäjä", "Kazakstan"],
+      "oikea_vastaus": "Mongolia"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman syvin kohta Challengerin syvyydessä?",
+      "vastaukset": ["10,994 metriä", "12,345 metriä", "11,034 metriä", "9,874 metriä"],
+      "oikea_vastaus": "10,994 metriä"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa sijaitsee El Aaiún, Länsi-Saharan suurin kaupunki?",
+      "vastaukset": ["Marokko", "Algeria", "Mauritania", "Länsi-Sahara"],
+      "oikea_vastaus": "Marokko"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin jäätikköalue?",
+      "vastaukset": ["Antarktis", "Grönlanti", "Siperian jäätikkö", "Alpit"],
+      "oikea_vastaus": "Antarktis"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman syvin makean veden järvi?",
+      "vastaukset": ["Baikal-järvi", "Järvi Superior", "Titicaca-järvi", "Ontario-järvi"],
+      "oikea_vastaus": "Baikal-järvi"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa sijaitsee Maailmanperintökohde Petra?",
+      "vastaukset": ["Jordania", "Israel", "Syyria", "Libanon"],
+      "oikea_vastaus": "Jordania"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta valtiota Afrikassa on yhteensä?",
+      "vastaukset": ["42", "54", "63", "72"],
+      "oikea_vastaus": "54"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa sijaitsee Timorin saari?",
+      "vastaukset": ["Indonesia", "Malesia", "Australia", "Itä-Timor"],
+      "oikea_vastaus": "Itä-Timor"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin saari, joka sijaitsee valtiolla, joka ei ole saari?",
+      "vastaukset": ["Madagaskar", "Borneo", "Grönlanti", "Sumatra"],
+      "oikea_vastaus": "Sumatra"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman syvin järvi Yhdysvalloissa?",
+      "vastaukset": ["Järvi Superior", "Michigan-järvi", "Huron-järvi", "Okeaniallinen"],
+      "oikea_vastaus": "Järvi Superior"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta prosenttia maailman makeasta vedestä on jäätiköissä?",
+      "vastaukset": ["8%", "15%", "25%", "34%"],
+      "oikea_vastaus": "68%"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin mantereella sijaitseva järvi?",
+      "vastaukset": ["Järvi Superior", "Kaspianmeri", "Välimerta", "Järvi Baikal"],
+      "oikea_vastaus": "Kaspianmeri"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa sijaitsee Maailmanperintökohde Machu Picchu?",
+      "vastaukset": ["Meksiko", "Brasilia", "Peru", "Kolumbia"],
+      "oikea_vastaus": "Peru"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta valtiota Euroopassa on yhteensä?",
+      "vastaukset": ["32", "44", "51", "58"],
+      "oikea_vastaus": "44"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman korkein tulivuori?",
+      "vastaukset": ["Kilauea", "Mount St. Helens", "Mauna Loa", "Olympus Mons"],
+      "oikea_vastaus": "Olympus Mons"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa sijaitsee Taklamakanin aavikko?",
+      "vastaukset": ["Kiina", "Mongolia", "Kazakstan", "Afganistan"],
+      "oikea_vastaus": "Kiina"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Kuinka monta prosenttia maailman väestöstä asuu Aasiassa?",
+      "vastaukset": ["32%", "45%", "60%", "72%"],
+      "oikea_vastaus": "60%"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman suurin niemimaa?",
+      "vastaukset": ["Skandinavian niemimaa", "Iberian niemimaa", "Kamtšatkan niemimaa", "Alaskan niemimaa"],
+      "oikea_vastaus": "Iberian niemimaa"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on maailman syvin kaivanto, joka ei ole valtameressä?",
+      "vastaukset": ["Suurin hauta", "Siperian kaivanto", "Pohjoinen kaivanto", "Meksikonlahti"],
+      "oikea_vastaus": "Siperian kaivanto"
+    },
+    {
+      "kategoria": "maantieto",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Missä maassa sijaitsee Atacama-aavikko?",
+      "vastaukset": ["Peru", "Bolivia", "Chile", "Argentiina"],
+      "oikea_vastaus": "Chile"
     }
   ]
 }
