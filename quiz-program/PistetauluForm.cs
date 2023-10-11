@@ -20,8 +20,6 @@ namespace quiz_program
 
         private void PistetauluForm_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("Tultiin pistetaulu -formille"); // Debug
-
             string fileName = "pisteet.txt";
             // Lista tupleista, johon luetaan nimimerkki ja pisteet
             List<Tuple<string, int>> scores = new List<Tuple<string, int>>();
@@ -62,10 +60,20 @@ namespace quiz_program
                 // Sort the scores in descending order
                 scores = scores.OrderByDescending(score => score.Item2).ToList();
 
-                // Print player names and scores in the "playername score" format
+                // Printtaa 10 parasta pelaajanimeä ja tulosta, \r\n on rivinvaihto
+                int i = 1;
+                string rivi = "";
                 foreach (var score in scores)
                 {
                     Console.WriteLine($"{score.Item1} {score.Item2}");
+                    //rivi = rivi +  i + ". " + score.Item1 + " " + score.Item2 + "\r\n";
+                    rivi = rivi + i + ". " + score.Item1.PadRight(20) + score.Item2 + "\r\n";
+                    i++;
+                    if (i > 10)
+                    {
+                        tuloksetLabel.Text = rivi;
+                        break;
+                    }
                 }
             }
             catch (FileNotFoundException)
