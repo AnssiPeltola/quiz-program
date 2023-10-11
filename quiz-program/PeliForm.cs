@@ -13,7 +13,10 @@ namespace quiz_program
         List<Question> questions; // List to store all loaded questions
         string pelaajaNimi; // Player's name
         string kategoria; // Selected category
+        int pisteet; // Counter for the correct answers
+        int virheet; // Counter for the wrong answers
         int remainingTime = 30; // Set the initial time to 30 seconds
+
 
         public PeliForm(string pelaajaNimi, string kategoria)
         {
@@ -37,6 +40,11 @@ namespace quiz_program
 
         private void aloitaNappi_Click(object sender, EventArgs e)
         {
+            // Jos tulee joku luovuta -nappi kesken pelin niin siihen pisteiden käsittely (nollaus/tallennus)
+            pisteet = 0;
+            virheet = 0;
+            Console.WriteLine($"Pisteet {pisteet} virheet {virheet}"); // Debug
+
             string selectedCategory = kategoria;
             timer1.Enabled = true; // Starts timer
 
@@ -99,18 +107,39 @@ namespace quiz_program
             if (selectedAnswer == correctAnswer)
             {
                 timer1.Stop();
-                MessageBox.Show("Correct answer!");
+                MessageBox.Show("Oikein!");
+                pisteet++;
+                Console.WriteLine($"Pisteet: {pisteet}"); //Debug
             }
             else
             {
                 timer1.Stop();
-                MessageBox.Show($"Incorrect answer. The correct answer is: {correctAnswer}");
+                MessageBox.Show("Väärä vastaus");
+                virheet++;
+                Console.WriteLine($"Väärät vastaukset: {virheet}"); //Debug
             }
 
-            // Move to the next question
-            NextQuestion();
-            // After prompt resets timer back to 30sec
-            ResetTimer();
+            // Game over when 5 wrong answers
+            if (virheet == 5)
+            {
+                timer1.Stop();
+                MessageBox.Show($"Peli loppui! Pisteesi: {pisteet}");
+                TallennaPisteet(pisteet);
+                virheet = 0;
+
+                // Palaa
+                Form1 alkuvalikko = new Form1();
+                // Show the PlayGameForm
+                alkuvalikko.Show();
+                this.Hide();   
+            }
+            else
+            {
+                // Move to the next question
+                NextQuestion();
+                // After prompt resets timer back to 30sec
+                ResetTimer();
+            }
         }
 
         private void ClearAnswerButtons()
@@ -145,8 +174,11 @@ namespace quiz_program
             }
             else
             {
-                MessageBox.Show("Quiz completed!");
                 // Handle quiz completion here
+                MessageBox.Show("Quiz completed!");
+                TallennaPisteet(pisteet);
+                pisteet = 0; // Nämä myös aloita -napin toiminnossa, kumpaan parempi
+                virheet = 0;
             }
         }
 
@@ -157,48 +189,47 @@ namespace quiz_program
 
             // Get the correct answer for the current question
             string correctAnswer = filteredQuestions[0].Oikea_Vastaus;
-
-            CheckAnswer(selectedAnswer, correctAnswer);
         }
 
         private void VastausNappi2_Click(object sender, EventArgs e)
         {
             string selectedAnswer = VastausNappi2.Text;
             string correctAnswer = filteredQuestions[0].Oikea_Vastaus;
-
-            CheckAnswer(selectedAnswer, correctAnswer);
         }
 
         private void VastausNappi3_Click(object sender, EventArgs e)
         {
             string selectedAnswer = VastausNappi3.Text;
             string correctAnswer = filteredQuestions[0].Oikea_Vastaus;
-
-            CheckAnswer(selectedAnswer, correctAnswer);
         }
 
         private void VastausNappi4_Click(object sender, EventArgs e)
         {
             string selectedAnswer = VastausNappi4.Text;
             string correctAnswer = filteredQuestions[0].Oikea_Vastaus;
-
-            CheckAnswer(selectedAnswer, correctAnswer);
         }
 
-        private void CheckAnswer(string selectedAnswer, string correctAnswer)
+        public void TallennaPisteet(int pisteet)
         {
-            if (selectedAnswer == correctAnswer)
+            string comma = ",";
+            string filePath = "pisteet.txt";
+
+            // Check if the file exists, and create it if it doesn't
+            if (!File.Exists(filePath))
             {
-                MessageBox.Show("Correct answer!");
+                File.Create(filePath).Close();
             }
-            else
+
+            // Create a StreamWriter to write to the file
+            using (StreamWriter writer = new StreamWriter(filePath, true))
             {
-                MessageBox.Show($"Incorrect answer. The correct answer is: {correctAnswer}");
+                    writer.WriteLine(pelaajaNimi + comma + pisteet);
             }
+
+            Console.WriteLine($"Pisteet {pisteet} tallennettu {filePath}");
 
             // Move to the next question
             NextQuestion();
-
         }
 
         // Timer ticks 1 per sec. 
@@ -229,6 +260,7 @@ namespace quiz_program
             timer1.Start(); // Start the timer
         }
     }
+}
 
     public class Question
     {
@@ -244,4 +276,3 @@ namespace quiz_program
         [JsonProperty("kysymykset")]
         public List<Question> Questions { get; set; }
     }
-}
