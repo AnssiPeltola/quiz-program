@@ -109,6 +109,7 @@ namespace quiz_program
                 timer1.Stop();
                 MessageBox.Show("Oikein!");
                 pisteet++;
+                pisteetLabel.Text = "Pisteesi: " + pisteet;
                 Console.WriteLine($"Pisteet: {pisteet}"); //Debug
             }
             else
@@ -116,6 +117,7 @@ namespace quiz_program
                 timer1.Stop();
                 MessageBox.Show("Väärä vastaus");
                 virheet++;
+                virheetLabel.Text = "Väärät vastaukset: " + virheet;
                 Console.WriteLine($"Väärät vastaukset: {virheet}"); //Debug
             }
 
