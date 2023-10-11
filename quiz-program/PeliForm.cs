@@ -13,6 +13,7 @@ namespace quiz_program
         List<Question> questions; // List to store all loaded questions
         string pelaajaNimi; // Player's name
         string kategoria; // Selected category
+        int remainingTime = 30; // Set the initial time to 30 seconds
 
         public PeliForm(string pelaajaNimi, string kategoria)
         {
@@ -37,6 +38,7 @@ namespace quiz_program
         private void aloitaNappi_Click(object sender, EventArgs e)
         {
             string selectedCategory = kategoria;
+            timer1.Enabled = true; // Starts timer
 
             // Filter questions by selected category
             filteredQuestions = questions.Where(q => q.Kategoria == selectedCategory).ToList();
@@ -89,15 +91,19 @@ namespace quiz_program
 
             if (selectedAnswer == correctAnswer)
             {
+                timer1.Stop();
                 MessageBox.Show("Correct answer!");
             }
             else
             {
+                timer1.Stop();
                 MessageBox.Show($"Incorrect answer. The correct answer is: {correctAnswer}");
             }
 
             // Move to the next question
             NextQuestion();
+            // After prompt resets timer back to 30sec
+            ResetTimer();
         }
 
         private void ClearAnswerButtons()
@@ -185,6 +191,35 @@ namespace quiz_program
 
             // Move to the next question
             NextQuestion();
+
+        }
+
+        // Timer ticks 1 per sec. 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            remainingTime--;
+
+            if (remainingTime < 0)
+            {
+                timer1.Stop(); // Stop the timer when it reaches 0 seconds
+                MessageBox.Show("Time's up! Incorrect answer.");
+                NextQuestion();
+                ResetTimer();
+            }
+            else
+            {
+                // Update your timer display (e.g., a label with the remaining time)
+                timerLabel.Text = $"{remainingTime} sec"; // Update "timerLabel" with the remaining time.
+            }
+        }
+
+        // Resets timer back to 30sec
+        private void ResetTimer()
+        {
+            timer1.Stop(); // Stop the timer
+            remainingTime = 30; // Reset the timer to 30 seconds
+            timerLabel.Text = "30 sec"; // Update the timer display
+            timer1.Start(); // Start the timer
         }
     }
 
