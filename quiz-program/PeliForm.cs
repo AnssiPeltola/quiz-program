@@ -39,7 +39,14 @@ namespace quiz_program
             string selectedCategory = kategoria;
 
             // Filter questions by selected category
-            filteredQuestions = questions.Where(q => q.Kategoria == selectedCategory).ToList();
+            if (selectedCategory == "kaikki")
+            {
+                filteredQuestions = questions;
+            }
+            else
+            {
+                filteredQuestions = questions.Where(q => q.Kategoria == selectedCategory).ToList();
+            }
 
             if (filteredQuestions.Count == 0)
             {
