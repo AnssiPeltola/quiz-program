@@ -16,5 +16,12 @@ namespace quiz_program
         {
             InitializeComponent();
         }
+
+        private void aloitusvalikkoonNappi_Click(object sender, EventArgs e)
+        {
+            Form1 aloitusvalikko = new Form1();
+            aloitusvalikko.Show();
+            this.Hide();
+        }
     }
 }
