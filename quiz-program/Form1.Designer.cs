@@ -38,17 +38,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label1.Location = new System.Drawing.Point(276, 102);
+            this.label1.Location = new System.Drawing.Point(421, 103);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 25);
+            this.label1.Size = new System.Drawing.Size(151, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Päävalikko";
+            this.label1.Text = "Hieno tietovisa!!";
             // 
             // pelaaNappi
             // 
-            this.pelaaNappi.Location = new System.Drawing.Point(79, 283);
+            this.pelaaNappi.Location = new System.Drawing.Point(80, 283);
             this.pelaaNappi.Name = "pelaaNappi";
-            this.pelaaNappi.Size = new System.Drawing.Size(422, 129);
+            this.pelaaNappi.Size = new System.Drawing.Size(400, 130);
             this.pelaaNappi.TabIndex = 1;
             this.pelaaNappi.Text = "Pelaa peliä";
             this.pelaaNappi.UseVisualStyleBackColor = true;
@@ -56,18 +56,18 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(609, 265);
+            this.button2.Location = new System.Drawing.Point(520, 283);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(331, 183);
+            this.button2.Size = new System.Drawing.Size(400, 130);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Pistetaulu";
+            this.button2.Text = "Näytä pistetaulu";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // suljeNappi
             // 
-            this.suljeNappi.Location = new System.Drawing.Point(426, 502);
+            this.suljeNappi.Location = new System.Drawing.Point(463, 498);
             this.suljeNappi.Name = "suljeNappi";
-            this.suljeNappi.Size = new System.Drawing.Size(75, 23);
+            this.suljeNappi.Size = new System.Drawing.Size(74, 30);
             this.suljeNappi.TabIndex = 3;
             this.suljeNappi.Text = "Sulje";
             this.suljeNappi.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 565);
+            this.ClientSize = new System.Drawing.Size(982, 553);
             this.Controls.Add(this.suljeNappi);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pelaaNappi);

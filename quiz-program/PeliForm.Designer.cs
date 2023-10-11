@@ -38,58 +38,63 @@
             this.timerLabel = new System.Windows.Forms.Label();
             this.pisteetLabel = new System.Windows.Forms.Label();
             this.virheetLabel = new System.Windows.Forms.Label();
+            this.luovutusNappi = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // kysymysLabel
             // 
+            this.kysymysLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kysymysLabel.AutoSize = true;
-            this.kysymysLabel.Location = new System.Drawing.Point(462, 192);
+            this.kysymysLabel.Location = new System.Drawing.Point(272, 42);
             this.kysymysLabel.Name = "kysymysLabel";
-            this.kysymysLabel.Size = new System.Drawing.Size(51, 20);
+            this.kysymysLabel.Size = new System.Drawing.Size(60, 16);
             this.kysymysLabel.TabIndex = 1;
-            this.kysymysLabel.Text = "label1";
+            this.kysymysLabel.Text = "kysymys";
+            this.kysymysLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VastausNappi1
             // 
-            this.VastausNappi1.Location = new System.Drawing.Point(333, 360);
-            this.VastausNappi1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.VastausNappi1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.VastausNappi1.Location = new System.Drawing.Point(190, 266);
             this.VastausNappi1.Name = "VastausNappi1";
-            this.VastausNappi1.Size = new System.Drawing.Size(241, 88);
+            this.VastausNappi1.Size = new System.Drawing.Size(300, 70);
             this.VastausNappi1.TabIndex = 2;
-            this.VastausNappi1.Text = "button1";
+            this.VastausNappi1.Text = "vastaus1";
             this.VastausNappi1.UseVisualStyleBackColor = true;
             this.VastausNappi1.Click += new System.EventHandler(this.AnswerButton_Click);
             // 
             // VastausNappi2
             // 
-            this.VastausNappi2.Location = new System.Drawing.Point(682, 355);
-            this.VastausNappi2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.VastausNappi2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.VastausNappi2.Location = new System.Drawing.Point(495, 266);
             this.VastausNappi2.Name = "VastausNappi2";
-            this.VastausNappi2.Size = new System.Drawing.Size(278, 98);
+            this.VastausNappi2.Size = new System.Drawing.Size(300, 70);
             this.VastausNappi2.TabIndex = 3;
-            this.VastausNappi2.Text = "button2";
+            this.VastausNappi2.Text = "vastaus2";
             this.VastausNappi2.UseVisualStyleBackColor = true;
             this.VastausNappi2.Click += new System.EventHandler(this.AnswerButton_Click);
             // 
             // VastausNappi3
             // 
-            this.VastausNappi3.Location = new System.Drawing.Point(333, 521);
-            this.VastausNappi3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.VastausNappi3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.VastausNappi3.Location = new System.Drawing.Point(190, 342);
             this.VastausNappi3.Name = "VastausNappi3";
-            this.VastausNappi3.Size = new System.Drawing.Size(241, 71);
+            this.VastausNappi3.Size = new System.Drawing.Size(300, 70);
             this.VastausNappi3.TabIndex = 4;
-            this.VastausNappi3.Text = "button3";
+            this.VastausNappi3.Text = "vastaus3";
             this.VastausNappi3.UseVisualStyleBackColor = true;
             this.VastausNappi3.Click += new System.EventHandler(this.AnswerButton_Click);
             // 
             // VastausNappi4
             // 
-            this.VastausNappi4.Location = new System.Drawing.Point(682, 521);
-            this.VastausNappi4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.VastausNappi4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.VastausNappi4.Location = new System.Drawing.Point(495, 342);
             this.VastausNappi4.Name = "VastausNappi4";
-            this.VastausNappi4.Size = new System.Drawing.Size(278, 71);
+            this.VastausNappi4.Size = new System.Drawing.Size(300, 70);
             this.VastausNappi4.TabIndex = 5;
-            this.VastausNappi4.Text = "button4";
+            this.VastausNappi4.Text = "vastaus4";
             this.VastausNappi4.UseVisualStyleBackColor = true;
             this.VastausNappi4.Click += new System.EventHandler(this.AnswerButton_Click);
             // 
@@ -100,35 +105,60 @@
             // 
             // timerLabel
             // 
-            this.timerLabel.Location = new System.Drawing.Point(858, 95);
+            this.timerLabel.Location = new System.Drawing.Point(741, 60);
             this.timerLabel.Name = "timerLabel";
-            this.timerLabel.Size = new System.Drawing.Size(128, 51);
+            this.timerLabel.Size = new System.Drawing.Size(54, 41);
             this.timerLabel.TabIndex = 0;
             this.timerLabel.Text = "30 sec";
             // 
             // pisteetLabel
             // 
             this.pisteetLabel.AutoSize = true;
-            this.pisteetLabel.Location = new System.Drawing.Point(341, 95);
+            this.pisteetLabel.Location = new System.Drawing.Point(187, 60);
             this.pisteetLabel.Name = "pisteetLabel";
-            this.pisteetLabel.Size = new System.Drawing.Size(75, 20);
+            this.pisteetLabel.Size = new System.Drawing.Size(61, 16);
             this.pisteetLabel.TabIndex = 6;
             this.pisteetLabel.Text = "Pisteet: 0";
             // 
             // virheetLabel
             // 
             this.virheetLabel.AutoSize = true;
-            this.virheetLabel.Location = new System.Drawing.Point(345, 137);
+            this.virheetLabel.Location = new System.Drawing.Point(187, 104);
             this.virheetLabel.Name = "virheetLabel";
-            this.virheetLabel.Size = new System.Drawing.Size(172, 20);
+            this.virheetLabel.Size = new System.Drawing.Size(142, 16);
             this.virheetLabel.TabIndex = 7;
             this.virheetLabel.Text = "Väärät vastaukset: 0 /5";
             // 
+            // luovutusNappi
+            // 
+            this.luovutusNappi.Location = new System.Drawing.Point(430, 60);
+            this.luovutusNappi.Name = "luovutusNappi";
+            this.luovutusNappi.Size = new System.Drawing.Size(140, 60);
+            this.luovutusNappi.TabIndex = 8;
+            this.luovutusNappi.Text = "Luovutan";
+            this.luovutusNappi.UseVisualStyleBackColor = true;
+            this.luovutusNappi.Click += new System.EventHandler(this.luovutusNappi_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.kysymysLabel, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(190, 160);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(605, 100);
+            this.tableLayoutPanel1.TabIndex = 9;
+            // 
             // PeliForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1171, 808);
+            this.ClientSize = new System.Drawing.Size(982, 553);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.luovutusNappi);
             this.Controls.Add(this.virheetLabel);
             this.Controls.Add(this.pisteetLabel);
             this.Controls.Add(this.timerLabel);
@@ -136,11 +166,11 @@
             this.Controls.Add(this.VastausNappi3);
             this.Controls.Add(this.VastausNappi2);
             this.Controls.Add(this.VastausNappi1);
-            this.Controls.Add(this.kysymysLabel);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "PeliForm";
             this.Text = "PeliForm";
             this.Load += new System.EventHandler(this.PeliForm_Load);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,5 +186,7 @@
         private System.Windows.Forms.Label timerLabel;
         private System.Windows.Forms.Label pisteetLabel;
         private System.Windows.Forms.Label virheetLabel;
+        private System.Windows.Forms.Button luovutusNappi;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

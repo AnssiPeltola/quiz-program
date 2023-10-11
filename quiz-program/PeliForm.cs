@@ -264,6 +264,19 @@ namespace quiz_program
             timerLabel.Text = "30 sec"; // Update the timer display
             timer1.Start(); // Start the timer
         }
+
+        private void luovutusNappi_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            MessageBox.Show($"Peli loppui! Pisteesi: {pisteet}");
+            TallennaPisteet(pisteet);
+            virheet = 0;
+
+            // Palaa
+            Form1 alkuvalikko = new Form1();
+            alkuvalikko.Show();
+            this.Hide();
+        }
     }
 }
 
