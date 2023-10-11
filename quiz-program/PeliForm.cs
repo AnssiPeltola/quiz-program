@@ -11,12 +11,13 @@ namespace quiz_program
     {
         // Define class-level variables
         List<Question> questions; // List to store all loaded questions
+        private List<Question> filteredQuestions; // List to store questions based on selected category
+        private int currentQuestionIndex = -1; // Initialize with -1 to indicate no questions displayed yet
         string pelaajaNimi; // Player's name
         string kategoria; // Selected category
         int pisteet; // Counter for the correct answers
         int virheet; // Counter for the wrong answers
         int remainingTime = 30; // Set the initial time to 30 seconds
-
 
         public PeliForm(string pelaajaNimi, string kategoria)
         {
@@ -31,19 +32,9 @@ namespace quiz_program
 
         private void PeliForm_Load(object sender, EventArgs e)
         {
-            // Your initialization code (if any) can be added here
-        }
-
-        private List<Question> filteredQuestions; // List to store questions based on selected category
-
-        private int currentQuestionIndex = -1; // Initialize with -1 to indicate no questions displayed yet
-
-        private void aloitaNappi_Click(object sender, EventArgs e)
-        {
             // Jos tulee joku luovuta -nappi kesken pelin niin siihen pisteiden käsittely (nollaus/tallennus)
             pisteet = 0;
             virheet = 0;
-            Console.WriteLine($"Pisteet {pisteet} virheet {virheet}"); // Debug
 
             string selectedCategory = kategoria;
             timer1.Enabled = true; // Starts timer
@@ -77,7 +68,7 @@ namespace quiz_program
             // Shuffle the answer options randomly
             List<string> shuffledAnswers = question.Vastaukset.OrderBy(x => Guid.NewGuid()).ToList();
 
-            // Set the text for the answer buttons (assuming you named them AnswerButton1, AnswerButton2, etc.)
+            // Set the text for the answer buttons
             for (int i = 0; i < shuffledAnswers.Count; i++)
             {
                 Button answerButton = this.Controls.Find($"VastausNappi{i + 1}", true).FirstOrDefault() as Button;
@@ -109,14 +100,14 @@ namespace quiz_program
                 timer1.Stop();
                 MessageBox.Show("Oikein!");
                 pisteet++;
-                Console.WriteLine($"Pisteet: {pisteet}"); //Debug
+                pisteetLabel.Text = "Pisteesi: " + pisteet;
             }
             else
             {
                 timer1.Stop();
                 MessageBox.Show("Väärä vastaus");
                 virheet++;
-                Console.WriteLine($"Väärät vastaukset: {virheet}"); //Debug
+                virheetLabel.Text = "Väärät vastaukset: " + virheet + " /5";
             }
 
             // Game over when 5 wrong answers
@@ -129,7 +120,6 @@ namespace quiz_program
 
                 // Palaa
                 Form1 alkuvalikko = new Form1();
-                // Show the PlayGameForm
                 alkuvalikko.Show();
                 this.Hide();   
             }
@@ -137,7 +127,7 @@ namespace quiz_program
             {
                 // Move to the next question
                 NextQuestion();
-                // After prompt resets timer back to 30sec
+                // After prompt resets timer back to 30 sec
                 ResetTimer();
             }
         }
@@ -177,7 +167,7 @@ namespace quiz_program
                 // Handle quiz completion here
                 MessageBox.Show("Quiz completed!");
                 TallennaPisteet(pisteet);
-                pisteet = 0; // Nämä myös aloita -napin toiminnossa, kumpaan parempi
+                pisteet = 0;
                 virheet = 0;
             }
         }
@@ -226,8 +216,6 @@ namespace quiz_program
                     writer.WriteLine(pelaajaNimi + comma + pisteet);
             }
 
-            Console.WriteLine($"Pisteet {pisteet} tallennettu {filePath}");
-
             // Move to the next question
             NextQuestion();
         }
@@ -242,6 +230,7 @@ namespace quiz_program
                 timer1.Stop(); // Stop the timer when it reaches 0 seconds
                 MessageBox.Show("Time's up! Incorrect answer.");
                 virheet++;
+                virheetLabel.Text = "Väärät vastaukset: " + virheet + " /5";
                 if (virheet >= 5)
                 {
                     timer1.Stop();
@@ -251,7 +240,6 @@ namespace quiz_program
 
                     // Palaa
                     Form1 alkuvalikko = new Form1();
-                    // Show the PlayGameForm
                     alkuvalikko.Show();
                     this.Hide();
                 }
