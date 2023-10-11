@@ -84,6 +84,9 @@
     <EmbeddedResource Include="PeliForm.resx">
       <DependentUpon>PeliForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PistetauluForm.resx">
+      <DependentUpon>PistetauluForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

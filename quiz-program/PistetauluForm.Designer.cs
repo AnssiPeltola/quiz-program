@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.aloitusvalikkoonNappi = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // aloitusvalikkoonNappi
+            // 
+            this.aloitusvalikkoonNappi.Location = new System.Drawing.Point(606, 80);
+            this.aloitusvalikkoonNappi.Name = "aloitusvalikkoonNappi";
+            this.aloitusvalikkoonNappi.Size = new System.Drawing.Size(148, 76);
+            this.aloitusvalikkoonNappi.TabIndex = 0;
+            this.aloitusvalikkoonNappi.Text = "Palaa aloitusvalikkoon";
+            this.aloitusvalikkoonNappi.UseVisualStyleBackColor = true;
+            this.aloitusvalikkoonNappi.Click += new System.EventHandler(this.aloitusvalikkoonNappi_Click);
+            // 
+            // PistetauluForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.aloitusvalikkoonNappi);
+            this.Name = "PistetauluForm";
             this.Text = "PistetauluForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button aloitusvalikkoonNappi;
     }
 }

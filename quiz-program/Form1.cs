@@ -33,5 +33,12 @@ namespace quiz_program
         {
             Application.Exit();
         }
+
+        private void pistetauluNappi_Click(object sender, EventArgs e)
+        {
+            PistetauluForm pistetaulu = new PistetauluForm();
+            pistetaulu.Show();
+            this.Hide();
+        }
     }
 }
