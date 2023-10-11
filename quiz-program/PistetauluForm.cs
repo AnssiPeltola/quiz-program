@@ -23,6 +23,8 @@ namespace quiz_program
             Console.WriteLine("Tultiin pistetaulu -formille"); // Debug
 
             string fileName = "pisteet.txt";
+            // Lista tupleista, johon luetaan nimimerkki ja pisteet
+            List<Tuple<string, int>> scores = new List<Tuple<string, int>>();
 
             try
             {
@@ -40,18 +42,30 @@ namespace quiz_program
                         if (parts.Length == 2)
                         {
                             string playerName = parts[0];
-                            //pelaajaLabel1.Text = playerName;
-                            string score = parts[1];
-                            //pisteetLabel1.Text = score;
-
-                            // Print player name and score in the "playername score" format
-                            Console.WriteLine($"{playerName} {score}");
+                            // Parsee stringinä olevat pisteet intiksi ja out-keywordillä tallentaa ne score-muuttujaan
+                            if (int.TryParse(parts[1], out int score))
+                            {
+                                scores.Add(Tuple.Create(playerName, score));
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Invalid score format for player {playerName}: {parts[1]}");
+                            }
                         }
                         else
                         {
                             Console.WriteLine($"Invalid line format: {line}");
                         }
                     }
+                }
+
+                // Sort the scores in descending order
+                scores = scores.OrderByDescending(score => score.Item2).ToList();
+
+                // Print player names and scores in the "playername score" format
+                foreach (var score in scores)
+                {
+                    Console.WriteLine($"{score.Item1} {score.Item2}");
                 }
             }
             catch (FileNotFoundException)
