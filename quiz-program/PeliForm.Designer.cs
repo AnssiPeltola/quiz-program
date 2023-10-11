@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.aloitaNappi = new System.Windows.Forms.Button();
             this.kysymysLabel = new System.Windows.Forms.Label();
             this.VastausNappi1 = new System.Windows.Forms.Button();
             this.VastausNappi2 = new System.Windows.Forms.Button();
@@ -40,17 +39,6 @@
             this.pisteetLabel = new System.Windows.Forms.Label();
             this.virheetLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // aloitaNappi
-            // 
-            this.aloitaNappi.Location = new System.Drawing.Point(542, 15);
-            this.aloitaNappi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.aloitaNappi.Name = "aloitaNappi";
-            this.aloitaNappi.Size = new System.Drawing.Size(84, 29);
-            this.aloitaNappi.TabIndex = 0;
-            this.aloitaNappi.Text = "Aloita";
-            this.aloitaNappi.UseVisualStyleBackColor = true;
-            this.aloitaNappi.Click += new System.EventHandler(this.aloitaNappi_Click);
             // 
             // kysymysLabel
             // 
@@ -123,18 +111,18 @@
             this.pisteetLabel.AutoSize = true;
             this.pisteetLabel.Location = new System.Drawing.Point(341, 95);
             this.pisteetLabel.Name = "pisteetLabel";
-            this.pisteetLabel.Size = new System.Drawing.Size(62, 20);
+            this.pisteetLabel.Size = new System.Drawing.Size(75, 20);
             this.pisteetLabel.TabIndex = 6;
-            this.pisteetLabel.Text = "Pisteet:";
+            this.pisteetLabel.Text = "Pisteet: 0";
             // 
             // virheetLabel
             // 
             this.virheetLabel.AutoSize = true;
             this.virheetLabel.Location = new System.Drawing.Point(345, 137);
             this.virheetLabel.Name = "virheetLabel";
-            this.virheetLabel.Size = new System.Drawing.Size(142, 20);
+            this.virheetLabel.Size = new System.Drawing.Size(172, 20);
             this.virheetLabel.TabIndex = 7;
-            this.virheetLabel.Text = "Väärät vastaukset:";
+            this.virheetLabel.Text = "Väärät vastaukset: 0 /5";
             // 
             // PeliForm
             // 
@@ -149,7 +137,6 @@
             this.Controls.Add(this.VastausNappi2);
             this.Controls.Add(this.VastausNappi1);
             this.Controls.Add(this.kysymysLabel);
-            this.Controls.Add(this.aloitaNappi);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "PeliForm";
             this.Text = "PeliForm";
@@ -160,8 +147,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button aloitaNappi;
         private System.Windows.Forms.Label kysymysLabel;
         private System.Windows.Forms.Button VastausNappi1;
         private System.Windows.Forms.Button VastausNappi2;
