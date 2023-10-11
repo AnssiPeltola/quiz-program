@@ -49,6 +49,7 @@
             this.Controls.Add(this.aloitusvalikkoonNappi);
             this.Name = "PistetauluForm";
             this.Text = "PistetauluForm";
+            this.Load += new System.EventHandler(this.PistetauluForm_Load);
             this.ResumeLayout(false);
 
         }
