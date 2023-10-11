@@ -122,7 +122,7 @@ namespace quiz_program
             }
 
             // Game over when 5 wrong answers
-            if (virheet == 5)
+            if (virheet >= 5)
             {
                 timer1.Stop();
                 MessageBox.Show($"Peli loppui! Pisteesi: {pisteet}");
@@ -243,8 +243,25 @@ namespace quiz_program
             {
                 timer1.Stop(); // Stop the timer when it reaches 0 seconds
                 MessageBox.Show("Time's up! Incorrect answer.");
-                NextQuestion();
-                ResetTimer();
+                virheet++;
+                if (virheet >= 5)
+                {
+                    timer1.Stop();
+                    MessageBox.Show($"Peli loppui! Pisteesi: {pisteet}");
+                    TallennaPisteet(pisteet);
+                    virheet = 0;
+
+                    // Palaa
+                    Form1 alkuvalikko = new Form1();
+                    // Show the PlayGameForm
+                    alkuvalikko.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    NextQuestion();
+                    ResetTimer();
+                }
             }
             else
             {
