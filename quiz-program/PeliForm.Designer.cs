@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.aloitaNappi = new System.Windows.Forms.Button();
             this.kysymysLabel = new System.Windows.Forms.Label();
             this.VastausNappi1 = new System.Windows.Forms.Button();
             this.VastausNappi2 = new System.Windows.Forms.Button();
             this.VastausNappi3 = new System.Windows.Forms.Button();
             this.VastausNappi4 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timerLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // aloitaNappi
@@ -95,11 +98,25 @@
             this.VastausNappi4.UseVisualStyleBackColor = true;
             this.VastausNappi4.Click += new System.EventHandler(this.AnswerButton_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timerLabel
+            // 
+            this.timerLabel.Location = new System.Drawing.Point(763, 76);
+            this.timerLabel.Name = "timerLabel";
+            this.timerLabel.Size = new System.Drawing.Size(114, 41);
+            this.timerLabel.TabIndex = 0;
+            this.timerLabel.Text = "30 sec";
+            // 
             // PeliForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1041, 646);
+            this.Controls.Add(this.timerLabel);
             this.Controls.Add(this.VastausNappi4);
             this.Controls.Add(this.VastausNappi3);
             this.Controls.Add(this.VastausNappi2);
@@ -122,5 +139,7 @@
         private System.Windows.Forms.Button VastausNappi2;
         private System.Windows.Forms.Button VastausNappi3;
         private System.Windows.Forms.Button VastausNappi4;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label timerLabel;
     }
 }
