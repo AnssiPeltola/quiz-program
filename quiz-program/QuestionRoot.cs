@@ -1,15 +1,15 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using newtonsoft.json;
+//using system;
+//using system.collections.generic;
+//using system.linq;
+//using system.text;
+//using system.threading.tasks;
 
-namespace quiz_program
-{
-    public class QuestionRoot
-    {
-        [JsonProperty("kysymykset")]
-        public List<Question> Questions { get; set; }
-    }
-}
+//namespace quiz_program
+//{
+//    public class questionroot
+//    {
+//        [jsonproperty("kysymykset")]
+//        public list<question> questions { get; set; }
+//    }
+//}
