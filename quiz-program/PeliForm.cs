@@ -15,6 +15,8 @@ namespace quiz_program
         string kategoria; // Selected category
         int pisteet; // Counter for the correct answers
         int virheet; // Counter for the wrong answers
+        int remainingTime = 30; // Set the initial time to 30 seconds
+
 
         public PeliForm(string pelaajaNimi, string kategoria)
         {
@@ -44,9 +46,17 @@ namespace quiz_program
             Console.WriteLine($"Pisteet {pisteet} virheet {virheet}"); // Debug
 
             string selectedCategory = kategoria;
+            timer1.Enabled = true; // Starts timer
 
             // Filter questions by selected category
-            filteredQuestions = questions.Where(q => q.Kategoria == selectedCategory).ToList();
+            if (selectedCategory == "kaikki")
+            {
+                filteredQuestions = questions;
+            }
+            else
+            {
+                filteredQuestions = questions.Where(q => q.Kategoria == selectedCategory).ToList();
+            }
 
             if (filteredQuestions.Count == 0)
             {
@@ -96,12 +106,14 @@ namespace quiz_program
 
             if (selectedAnswer == correctAnswer)
             {
+                timer1.Stop();
                 MessageBox.Show("Oikein!");
                 pisteet++;
                 Console.WriteLine($"Pisteet: {pisteet}"); //Debug
             }
             else
             {
+                timer1.Stop();
                 MessageBox.Show("Väärä vastaus");
                 virheet++;
                 Console.WriteLine($"Väärät vastaukset: {virheet}"); //Debug
@@ -110,6 +122,7 @@ namespace quiz_program
             // Game over when 5 wrong answers
             if (virheet == 5)
             {
+                timer1.Stop();
                 MessageBox.Show($"Peli loppui! Pisteesi: {pisteet}");
                 TallennaPisteet(pisteet);
                 virheet = 0;
@@ -118,11 +131,15 @@ namespace quiz_program
                 Form1 alkuvalikko = new Form1();
                 // Show the PlayGameForm
                 alkuvalikko.Show();
-                this.Hide();
-
+                this.Hide();   
             }
             else
-                NextQuestion(); // Move to the next question
+            {
+                // Move to the next question
+                NextQuestion();
+                // After prompt resets timer back to 30sec
+                ResetTimer();
+            }
         }
 
         private void ClearAnswerButtons()
@@ -210,8 +227,38 @@ namespace quiz_program
             }
 
             Console.WriteLine($"Pisteet {pisteet} tallennettu {filePath}");
+
+            // Move to the next question
+            NextQuestion();
         }
 
+        // Timer ticks 1 per sec. 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            remainingTime--;
+
+            if (remainingTime < 0)
+            {
+                timer1.Stop(); // Stop the timer when it reaches 0 seconds
+                MessageBox.Show("Time's up! Incorrect answer.");
+                NextQuestion();
+                ResetTimer();
+            }
+            else
+            {
+                // Update your timer display (e.g., a label with the remaining time)
+                timerLabel.Text = $"{remainingTime} sec"; // Update "timerLabel" with the remaining time.
+            }
+        }
+
+        // Resets timer back to 30sec
+        private void ResetTimer()
+        {
+            timer1.Stop(); // Stop the timer
+            remainingTime = 30; // Reset the timer to 30 seconds
+            timerLabel.Text = "30 sec"; // Update the timer display
+            timer1.Start(); // Start the timer
+        }
     }
 }
 
