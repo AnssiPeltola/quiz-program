@@ -32,24 +32,25 @@
             this.pelaaNappi = new System.Windows.Forms.Button();
             this.pistetauluNappi = new System.Windows.Forms.Button();
             this.suljeNappi = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label1.Location = new System.Drawing.Point(474, 129);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label1.Location = new System.Drawing.Point(379, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 29);
+            this.label1.Size = new System.Drawing.Size(248, 42);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hieno tietovisa!!";
+            this.label1.Text = "Tietovisakisa";
             // 
             // pelaaNappi
             // 
-            this.pelaaNappi.Location = new System.Drawing.Point(90, 354);
-            this.pelaaNappi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pelaaNappi.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.pelaaNappi.Location = new System.Drawing.Point(80, 283);
             this.pelaaNappi.Name = "pelaaNappi";
-            this.pelaaNappi.Size = new System.Drawing.Size(450, 162);
+            this.pelaaNappi.Size = new System.Drawing.Size(400, 130);
             this.pelaaNappi.TabIndex = 1;
             this.pelaaNappi.Text = "Pelaa peliä";
             this.pelaaNappi.UseVisualStyleBackColor = true;
@@ -57,10 +58,10 @@
             // 
             // pistetauluNappi
             // 
-            this.pistetauluNappi.Location = new System.Drawing.Point(585, 354);
-            this.pistetauluNappi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pistetauluNappi.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.pistetauluNappi.Location = new System.Drawing.Point(520, 283);
             this.pistetauluNappi.Name = "pistetauluNappi";
-            this.pistetauluNappi.Size = new System.Drawing.Size(450, 162);
+            this.pistetauluNappi.Size = new System.Drawing.Size(400, 130);
             this.pistetauluNappi.TabIndex = 2;
             this.pistetauluNappi.Text = "Näytä pistetaulu";
             this.pistetauluNappi.UseVisualStyleBackColor = true;
@@ -68,27 +69,37 @@
             // 
             // suljeNappi
             // 
-            this.suljeNappi.Location = new System.Drawing.Point(521, 622);
-            this.suljeNappi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.suljeNappi.Location = new System.Drawing.Point(896, 511);
             this.suljeNappi.Name = "suljeNappi";
-            this.suljeNappi.Size = new System.Drawing.Size(83, 38);
+            this.suljeNappi.Size = new System.Drawing.Size(74, 30);
             this.suljeNappi.TabIndex = 3;
             this.suljeNappi.Text = "Sulje";
             this.suljeNappi.UseVisualStyleBackColor = true;
             this.suljeNappi.Click += new System.EventHandler(this.suljeNappi_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label2.Location = new System.Drawing.Point(458, 151);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(230, 25);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Kysymykset loi ChatGPT";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1105, 691);
+            this.ClientSize = new System.Drawing.Size(982, 553);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.suljeNappi);
             this.Controls.Add(this.pistetauluNappi);
             this.Controls.Add(this.pelaaNappi);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tietovisakisa";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,6 +111,7 @@
         private System.Windows.Forms.Button pelaaNappi;
         private System.Windows.Forms.Button pistetauluNappi;
         private System.Windows.Forms.Button suljeNappi;
+        private System.Windows.Forms.Label label2;
     }
 }
 

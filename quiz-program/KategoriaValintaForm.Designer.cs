@@ -43,21 +43,22 @@
             // radioNappi1
             // 
             this.radioNappi1.AutoSize = true;
-            this.radioNappi1.Location = new System.Drawing.Point(3, 4);
-            this.radioNappi1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioNappi1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.radioNappi1.Location = new System.Drawing.Point(3, 3);
             this.radioNappi1.Name = "radioNappi1";
-            this.radioNappi1.Size = new System.Drawing.Size(73, 24);
+            this.radioNappi1.Size = new System.Drawing.Size(83, 29);
             this.radioNappi1.TabIndex = 0;
             this.radioNappi1.Text = "Tiede";
+            this.radioNappi1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.radioNappi1.UseVisualStyleBackColor = true;
             // 
             // radioNappi2
             // 
             this.radioNappi2.AutoSize = true;
-            this.radioNappi2.Location = new System.Drawing.Point(172, 4);
-            this.radioNappi2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioNappi2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.radioNappi2.Location = new System.Drawing.Point(231, 3);
             this.radioNappi2.Name = "radioNappi2";
-            this.radioNappi2.Size = new System.Drawing.Size(155, 24);
+            this.radioNappi2.Size = new System.Drawing.Size(180, 29);
             this.radioNappi2.TabIndex = 1;
             this.radioNappi2.Text = "Luonto ja eläimet";
             this.radioNappi2.UseVisualStyleBackColor = true;
@@ -65,10 +66,10 @@
             // radioNappi3
             // 
             this.radioNappi3.AutoSize = true;
-            this.radioNappi3.Location = new System.Drawing.Point(3, 66);
-            this.radioNappi3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioNappi3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.radioNappi3.Location = new System.Drawing.Point(3, 50);
             this.radioNappi3.Name = "radioNappi3";
-            this.radioNappi3.Size = new System.Drawing.Size(105, 24);
+            this.radioNappi3.Size = new System.Drawing.Size(119, 29);
             this.radioNappi3.TabIndex = 2;
             this.radioNappi3.Text = "Maantieto";
             this.radioNappi3.UseVisualStyleBackColor = true;
@@ -77,10 +78,10 @@
             // 
             this.radioNappi4.AutoSize = true;
             this.radioNappi4.Checked = true;
-            this.radioNappi4.Location = new System.Drawing.Point(172, 66);
-            this.radioNappi4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioNappi4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.radioNappi4.Location = new System.Drawing.Point(231, 50);
             this.radioNappi4.Name = "radioNappi4";
-            this.radioNappi4.Size = new System.Drawing.Size(150, 24);
+            this.radioNappi4.Size = new System.Drawing.Size(176, 29);
             this.radioNappi4.TabIndex = 3;
             this.radioNappi4.TabStop = true;
             this.radioNappi4.Text = "Kaikki kategoriat";
@@ -88,18 +89,17 @@
             // 
             // pelaajaNimiBox
             // 
-            this.pelaajaNimiBox.Location = new System.Drawing.Point(304, 215);
-            this.pelaajaNimiBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pelaajaNimiBox.Location = new System.Drawing.Point(182, 89);
             this.pelaajaNimiBox.Name = "pelaajaNimiBox";
-            this.pelaajaNimiBox.Size = new System.Drawing.Size(292, 26);
+            this.pelaajaNimiBox.Size = new System.Drawing.Size(260, 22);
             this.pelaajaNimiBox.TabIndex = 4;
             // 
             // pelaaNappi
             // 
-            this.pelaaNappi.Location = new System.Drawing.Point(394, 466);
-            this.pelaaNappi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pelaaNappi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.pelaaNappi.Location = new System.Drawing.Point(278, 320);
             this.pelaaNappi.Name = "pelaaNappi";
-            this.pelaaNappi.Size = new System.Drawing.Size(112, 38);
+            this.pelaaNappi.Size = new System.Drawing.Size(255, 105);
             this.pelaaNappi.TabIndex = 5;
             this.pelaaNappi.Text = "Pelaa peliä";
             this.pelaaNappi.UseVisualStyleBackColor = true;
@@ -108,9 +108,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(304, 191);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label1.Location = new System.Drawing.Point(180, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 20);
+            this.label1.Size = new System.Drawing.Size(162, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "Anna nimimerkki:";
             // 
@@ -119,39 +120,39 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.radioNappi1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.radioNappi2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.radioNappi3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.radioNappi4, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(281, 318);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.radioNappi1, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(182, 178);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(338, 125);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(456, 95);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(281, 282);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label2.Location = new System.Drawing.Point(180, 153);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 20);
+            this.label2.Size = new System.Drawing.Size(162, 25);
             this.label2.TabIndex = 8;
             this.label2.Text = "Valitse kategoria:";
             // 
             // KategoriaValintaForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 566);
+            this.ClientSize = new System.Drawing.Size(782, 453);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pelaaNappi);
             this.Controls.Add(this.pelaajaNimiBox);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "KategoriaValintaForm";
             this.Text = "KategoriaValintaForm";
             this.tableLayoutPanel1.ResumeLayout(false);
