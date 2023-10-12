@@ -674,8 +674,8 @@
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin nisäkäs?",
-      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
-      "oikea_vastaus": "Elefantti"
+      "vastaukset": [ "Afrikan elefantti", "Sinivalas", "Kilpikonna", "Kirahvi" ],
+      "oikea_vastaus": "Sinivalas"
     },
     {
       "kategoria": "luonto ja eläimet",
@@ -694,9 +694,9 @@
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman suurin nisäkäs?",
-      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
-      "oikea_vastaus": "Elefantti"
+      "kysymys": "Mikä eläin on Panda?",
+      "vastaukset": [ "Karhu", "Koira", "Kissa", "Bambu" ],
+      "oikea_vastaus": "Karhu"
     },
     {
       "kategoria": "luonto ja eläimet",
@@ -729,65 +729,65 @@
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman suurin lintu?",
-      "vastaukset": [ "Kotka", "Joutsen", "Strutsi", "Papukaija" ],
-      "oikea_vastaus": "Strutsi"
+      "kysymys": "Mikä eläin elää eukalyptuspuissa ja on symboli Australiassa?",
+      "vastaukset": [ "Koala", "Kenguru", "Leijona", "Tiikeri" ],
+      "oikea_vastaus": "Koala"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman suurin nisäkäs?",
-      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
-      "oikea_vastaus": "Elefantti"
+      "kysymys": "Missä maanosassa sijaitsee Sahara?",
+      "vastaukset": [ "Etelä-Amerikka", "Afrikka", "Aasia", "Pohjois-Amerikka" ],
+      "oikea_vastaus": "Afrikka"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman suurin matelija?",
-      "vastaukset": [ "Käärme", "Kilpikonna", "Krokotiili", "Iguana" ],
-      "oikea_vastaus": "Krokotiili"
+      "kysymys": "Mikä eläin on symmetrinen ja voi regeneroida raajojaan?",
+      "vastaukset": [ "Kilpikonna", "Sammakko", "Käärme", "Meritähti" ],
+      "oikea_vastaus": "Meritähti"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman myrkyllisin käärme?",
-      "vastaukset": [ "Korallikäärme", "Kyykäärme", "Ruoskakäärme", "Kuningaskobra" ],
-      "oikea_vastaus": "Korallikäärme"
+      "kysymys": "Kuinka monta vuodenaikaa on tavallisesti vuoden aikana?",
+      "vastaukset": [ "2", "3", "4", "5" ],
+      "oikea_vastaus": "4"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman suurin nisäkäs?",
-      "vastaukset": [ "Elefantti", "Gorilla", "Leijona", "Koala" ],
-      "oikea_vastaus": "Elefantti"
+      "kysymys": "Mikä eläin syö pääasiassa bambua ja elää Kiinassa?",
+      "vastaukset": [ "Panda", "Leijona", "Gorilla", "Koala" ],
+      "oikea_vastaus": "Panda"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä eläin on symboli Kiinalaisessa horoskoopissa vuodelle 2023?",
-      "vastaukset": [ "Kani", "Lohikäärme", "Tiikeri", "Kukko" ],
-      "oikea_vastaus": "Kani"
+      "kysymys": "Mikä eläin liitää ilmassa ja syö pääasiassa hyönteisiä?",
+      "vastaukset": [ "Perhonen", "Lepakko", "Haukka", "Korppi" ],
+      "oikea_vastaus": "Lepakko"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä eläin on maailman nopein saalistaja?",
-      "vastaukset": [ "Gepardi", "Leopardi", "Tiikeri", "Leijona" ],
-      "oikea_vastaus": "Gepardi"
+      "kysymys": "Kuinka monta jalkaa hyönteisillä yleensä on?",
+      "vastaukset": [ "4", "6", "8", "10" ],
+      "oikea_vastaus": "6"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman suurin merinisäkäs?",
-      "vastaukset": [ "Delfiini", "Valas", "Hylje", "Valkopäämerikotka" ],
-      "oikea_vastaus": "Valas"
+      "kysymys": "Mikä eläin on kuuluisa mustavalkoisista raidoistaan?",
+      "vastaukset": [ "Tiikeri", "Leopardi", "Kirahvi", "Seepra" ],
+      "oikea_vastaus": "Seepra"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman myrkyllisin eläin?",
-      "vastaukset": [ "Meduusa", "Ampiainen", "Käärme", "Skorpioni" ],
-      "oikea_vastaus": "Meduusa"
+      "kysymys": "Mikä on maapallon suurin aavikko?",
+      "vastaukset": [ "Gobi-aavikko", "Sahara", "Antarktis", "Kalahari-aavikko" ],
+      "oikea_vastaus": "Sahara"
     },
     {
       "kategoria": "luonto ja eläimet",
@@ -868,10 +868,10 @@
     },
     {
       "kategoria": "luonto ja eläimet",
-      "vaikeusaste": "keskivaikea",
-      "kysymys": "Mikä on maailman myrkyllisin käärme?",
-      "vastaukset": [ "Merikäärme", "Ruotsalainen hyytelökäärme", "Kuningaskobra", "Musta mamba" ],
-      "oikea_vastaus": "Merikäärme"
+      "vaikeusaste": "helppo",
+      "kysymys": "Missä maanosassa Amazon-joki sijaitsee?",
+      "vastaukset": [ "Afrikka", "Etelä-Amerikka", "Aasia", "Pohjois-Amerikka" ],
+      "oikea_vastaus": "Etelä-Amerikka"
     },
     {
       "kategoria": "luonto ja eläimet",
@@ -918,14 +918,14 @@
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman pienin virtahepo laji?",
+      "kysymys": "Mikä on maailman pienin virtahepolaji?",
       "vastaukset": [ "Afrikan virtahepo", "Pygmivirtahepo", "Isonvirtahepo", "Haitinvirtahepo" ],
       "oikea_vastaus": "Pygmivirtahepo"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman suurin lintulaji siipiväliä mitattuna?",
+      "kysymys": "Millä lintulajilla on suurin siipiväli?",
       "vastaukset": [ "Albatrossi", "Kondori", "Joutsen", "Kotka" ],
       "oikea_vastaus": "Albatrossi"
     },
@@ -939,23 +939,23 @@
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman suurin lentävä hyönteinen?",
-      "vastaukset": [ "Kovakuoriainen", "Kaskaat", "Pistoja", "Jättipuutiainen" ],
-      "oikea_vastaus": "Jättipuutiainen"
+      "kysymys": "Mikä on maailman myrkyllisin hämähäkki?",
+      "vastaukset": [ "Musta leski", "Kamelin hämähäkki", "Brasilian vaaleanpunainen lintuhämähäkki", "Susihämähäkki" ],
+      "oikea_vastaus": "Brasilian vaaleanpunainen lintuhämähäkki"
+    },
+    {
+      "kategoria": "luonto ja eläimet",
+      "vaikeusaste": "helppo",
+      "kysymys": "Kuinka monta värähtelyä sekunnissa ihmisen korva voi kuulla?",
+      "vastaukset": [ "20", "100", "1000", "2000" ],
+      "oikea_vastaus": "1000"
     },
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman suurin matelijalaji?",
-      "vastaukset": [ "Kuningaskobra", "Komodonvaraani", "Krokotiili", "Iguana" ],
-      "oikea_vastaus": "Komodonvaraani"
-    },
-    {
-      "kategoria": "luonto ja eläimet",
-      "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman myrkyllisin käärme?",
-      "vastaukset": [ "Ruotsalainen hyytelökäärme", "Musta mamba", "Kuningaskobra", "Merikäärme" ],
-      "oikea_vastaus": "Ruotsalainen hyytelökäärme"
+      "kysymys": "Kuinka monta eri lajia maapallon tiedetään olevan apinoita (Primates)?",
+      "vastaukset": [ "Noin 100", "Noin 300", "Noin 600", "Noin 1 000" ],
+      "oikea_vastaus": "Noin 600"
     },
     {
       "kategoria": "luonto ja eläimet",
@@ -981,9 +981,9 @@
     {
       "kategoria": "luonto ja eläimet",
       "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman myrkyllisin sieni?",
-      "vastaukset": [ "Kärpässieni", "Suppilovahvero", "Kantarelli", "Herkkutatti" ],
-      "oikea_vastaus": "Kärpässieni"
+      "kysymys": "Kuinka monta vuotta leguaani voi elää?",
+      "vastaukset": [ "20 vuotta", "50 vuotta", "80 vuotta", "100 vuotta" ],
+      "oikea_vastaus": "80 vuotta"
     },
     {
       "kategoria": "luonto ja eläimet",
