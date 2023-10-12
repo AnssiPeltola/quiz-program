@@ -129,9 +129,12 @@ namespace quiz_program
             {
                 TarkistaVaikeusaste();
                 // Move to the next question
-                NextQuestion();
-                // After prompt resets timer back to 30 sec
-                ResetTimer();
+                if(filteredQuestions.Count != 0)
+                {
+                    NextQuestion();
+                    // After prompt resets timer back to 30 sec
+                    ResetTimer();
+                }
             }
         }
 
@@ -206,10 +209,14 @@ namespace quiz_program
             else
             {
                 // Handle quiz completion here
+                timer1.Stop();
                 MessageBox.Show("Quiz completed!");
                 TallennaPisteet(pisteet);
                 pisteet = 0;
                 virheet = 0;
+                Form1 alkuvalikko = new Form1();
+                alkuvalikko.Show();
+                this.Hide();
             }
         }
 
@@ -256,9 +263,6 @@ namespace quiz_program
             {
                     writer.WriteLine(pelaajaNimi + comma + pisteet);
             }
-
-            // Move to the next question
-            NextQuestion();
         }
 
         // Timer ticks 1 per sec. 
