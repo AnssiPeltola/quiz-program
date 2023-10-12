@@ -199,14 +199,14 @@
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on perusyksikkö, jolla mitataan sähkön resistanssia?",
-      "vastaukset": ["Amppeeri", "Ohmi", "Voltti", "Watti"],
+      "vastaukset": [ "Amppeeri", "Ohmi", "Voltti", "Watti" ],
       "oikea_vastaus": "Ohmi"
     },
     {
       "kategoria": "tiede",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on tunnettu avaruuden ilmiö, joka syntyy, kun suuri tähti räjähtää?",
-      "vastaukset": ["Musta aukko", "Komeetta", "Supernova", "Kuunsirppi"],
+      "vastaukset": [ "Musta aukko", "Komeetta", "Supernova", "Kuunsirppi" ],
       "oikea_vastaus": "Supernova"
     },
     {
@@ -466,10 +466,10 @@
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on Planckin yksikkö, ja mihin sitä käytetään?",
       "vastaukset": [
-      "Se on perusyksikkö, jolla mitataan massaa",
-      "Se on pienin tunnettu ajan yksikkö",
-      "Se on perusyksikkö, jolla mitataan energian määrää",
-      "Se on yksikkö, joka kuvaa äänenvoimakkuutta"
+        "Se on perusyksikkö, jolla mitataan massaa",
+        "Se on pienin tunnettu ajan yksikkö",
+        "Se on perusyksikkö, jolla mitataan energian määrää",
+        "Se on yksikkö, joka kuvaa äänenvoimakkuutta"
       ],
       "oikea_vastaus": "Se on perusyksikkö, jolla mitataan energian määrää"
     },
@@ -1078,420 +1078,420 @@
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin valtameri?",
-      "vastaukset": ["Tyynimeri", "Atlantin valtameri", "Intian valtameri", "Pohjoinen jäämeri"],
+      "vastaukset": [ "Tyynimeri", "Atlantin valtameri", "Intian valtameri", "Pohjoinen jäämeri" ],
       "oikea_vastaus": "Tyynimeri"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
-      "kysymys": "Mikä on maailman suurin manner?",
-      "vastaukset": ["Afrikka", "Aasia", "Etelä-Amerikka", "Pohjois-Amerikka"],
+      "kysymys": "Mikä on maailman suurin maanosa?",
+      "vastaukset": [ "Afrikka", "Aasia", "Etelä-Amerikka", "Pohjois-Amerikka" ],
       "oikea_vastaus": "Aasia"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Missä maanosassa sijaitsee Egypti?",
-      "vastaukset": ["Afrikka", "Aasia", "Eurooppa", "Etelä-Amerikka"],
+      "vastaukset": [ "Afrikka", "Aasia", "Eurooppa", "Etelä-Amerikka" ],
       "oikea_vastaus": "Afrikka"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin vuoristoalue?",
-      "vastaukset": ["Andit", "Alpit", "Himalaja", "Rocky Mountains"],
+      "vastaukset": [ "Andit", "Alpit", "Himalaja", "Kalliovuoret" ],
       "oikea_vastaus": "Himalaja"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman korkein vuori?",
-      "vastaukset": ["K2", "Mount Everest", "Annapurna", "Kilimanjaro"],
+      "vastaukset": [ "K2", "Mount Everest", "Annapurna", "Kilimanjaro" ],
       "oikea_vastaus": "Mount Everest"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin saari?",
-      "vastaukset": ["Grönlanti", "Kreeta", "Madagaskar", "Kuuba"],
+      "vastaukset": [ "Grönlanti", "Kreeta", "Madagaskar", "Kuuba" ],
       "oikea_vastaus": "Grönlanti"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Missä maassa sijaitsee Eiffel-torni?",
-      "vastaukset": ["Iso-Britannia", "Ranska", "Italia", "Espanja"],
+      "vastaukset": [ "Iso-Britannia", "Ranska", "Italia", "Espanja" ],
       "oikea_vastaus": "Ranska"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin järvialue?",
-      "vastaukset": ["Järvi Superior", "Kaspianmeri", "Pohjanmeri", "Välimerta"],
+      "vastaukset": [ "Superior-järvi", "Kaspianmeri", "Pohjanmeri", "Välimeri" ],
       "oikea_vastaus": "Kaspianmeri"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin aavikko?",
-      "vastaukset": ["Gobi-aavikko", "Sahara", "Atacama-aavikko", "Kalifornia-aavikko"],
+      "vastaukset": [ "Gobi", "Sahara", "Atacama", "Kalifornia" ],
       "oikea_vastaus": "Sahara"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman pisin joki?",
-      "vastaukset": ["Niger-joki", "Amazon-joki", "Mississippi-joki", "Niili"],
+      "vastaukset": [ "Huanghe eli Keltainenjoki", "Amazon", "Mississippi", "Niili" ],
       "oikea_vastaus": "Niili"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin valtio pinta-alaltaan?",
-      "vastaukset": ["Kiina", "Venäjä", "Yhdysvallat", "Kanada"],
+      "vastaukset": [ "Kiina", "Venäjä", "Yhdysvallat", "Kanada" ],
       "oikea_vastaus": "Venäjä"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Kuinka monta maanosaa maailmassa on?",
-      "vastaukset": ["3", "5", "7", "9"],
+      "vastaukset": [ "3", "5", "7", "9" ],
       "oikea_vastaus": "7"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman syvin valtameri?",
-      "vastaukset": ["Atlantin valtameri", "Intian valtameri", "Tyynimeri", "Arktinen valtameri"],
+      "vastaukset": [ "Atlantin valtameri", "Intian valtameri", "Tyynimeri", "Arktinen valtameri" ],
       "oikea_vastaus": "Tyynimeri"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Missä maassa sijaitsee Machu Picchu?",
-      "vastaukset": ["Meksiko", "Brasilia", "Peru", "Kolumbia"],
+      "vastaukset": [ "Meksiko", "Brasilia", "Peru", "Kolumbia" ],
       "oikea_vastaus": "Peru"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin ekvatoriaalinen sademetsä?",
-      "vastaukset": ["Amazonin sademetsä", "Kongon sademetsä", "Indonesian sademetsä", "Afrikan sademetsä"],
+      "vastaukset": [ "Amazonin sademetsä", "Kongon sademetsä", "Indonesian sademetsä", "Afrikan sademetsä" ],
       "oikea_vastaus": "Amazonin sademetsä"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä maa tunnetaan nimellä 'Aurinkoinen Espanja'?",
-      "vastaukset": ["Espanja", "Italia", "Kreikka", "Turkki"],
+      "vastaukset": [ "Espanja", "Italia", "Kreikka", "Turkki" ],
       "oikea_vastaus": "Espanja"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin saarivaltio?",
-      "vastaukset": ["Japani", "Filippiinit", "Indonesia", "Malesia"],
+      "vastaukset": [ "Japani", "Filippiinit", "Indonesia", "Malesia" ],
       "oikea_vastaus": "Indonesia"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman syvin järvi?",
-      "vastaukset": ["Baikal-järvi", "Järvi Superior", "Michigan-järvi", "Ontario-järvi"],
+      "vastaukset": [ "Baikal-järvi", "Titicaca", "Michigan-järvi", "Vättern" ],
       "oikea_vastaus": "Baikal-järvi"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Mikä on maailman suurin saarimeri?",
-      "vastaukset": ["Karibianmeri", "Egeanmeri", "Itämeri", "Philippine Sea"],
+      "vastaukset": [ "Karibianmeri", "Egeanmeri", "Itämeri", "Philippine Sea" ],
       "oikea_vastaus": "Itämeri"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "helppo",
       "kysymys": "Missä maanosassa sijaitsee Sahara-aavikko?",
-      "vastaukset": ["Afrikka", "Aasia", "Etelä-Amerikka", "Australia"],
+      "vastaukset": [ "Afrikka", "Aasia", "Etelä-Amerikka", "Australia" ],
       "oikea_vastaus": "Afrikka"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
-      "kysymys": "Mikä on maailman syvin kohta Mariannen hauta?",
-      "vastaukset": ["10,994 metriä", "8,848 metriä", "12,389 metriä", "9,765 metriä"],
+      "kysymys": "Kuinka syvä on maailman syvin kotha, Mariannen hauta?",
+      "vastaukset": [ "10,994 metriä", "8,848 metriä", "12,389 metriä", "9,765 metriä" ],
       "oikea_vastaus": "10,994 metriä"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on maailman suurin saari, joka ei kuulu valtiolle?",
-      "vastaukset": ["Grönlanti", "Madagaskar", "Borneo", "Kreeta"],
+      "vastaukset": [ "Grönlanti", "Madagaskar", "Borneo", "Kreeta" ],
       "oikea_vastaus": "Borneo"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on maailman kapein valtameri?",
-      "vastaukset": ["Pohjoinen jäämeri", "Atlantin valtameri", "Intian valtameri", "Pohjoinen Tyynimeri"],
+      "vastaukset": [ "Pohjoinen jäämeri", "Atlantin valtameri", "Intian valtameri", "Pohjoinen Tyynimeri" ],
       "oikea_vastaus": "Pohjoinen jäämeri"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on maailman suurin tektoninen laatta?",
-      "vastaukset": ["Euraasian laatta", "Tyynenmeren laatta", "Afrikan laatta", "Pohjois-Amerikan laatta"],
+      "vastaukset": [ "Euraasian laatta", "Tyynenmeren laatta", "Afrikan laatta", "Pohjois-Amerikan laatta" ],
       "oikea_vastaus": "Tyynenmeren laatta"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Missä maassa sijaitsee suurin osa Amazonin sademetsästä?",
-      "vastaukset": ["Brasilia", "Peru", "Kolumbia", "Venezuela"],
+      "vastaukset": [ "Brasilia", "Peru", "Kolumbia", "Venezuela" ],
       "oikea_vastaus": "Brasilia"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
-      "kysymys": "Mikä on maailman syvin käytetty sukellusveneen sukellus?",
-      "vastaukset": ["10,918 metriä", "7,874 metriä", "12,432 metriä", "9,605 metriä"],
+      "kysymys": "Mikä on maailman syvin sukellusveneen sukellus?",
+      "vastaukset": [ "10,918 metriä", "7,874 metriä", "12,432 metriä", "9,605 metriä" ],
       "oikea_vastaus": "10,918 metriä"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
-      "kysymys": "Mikä on maailman suurin mantereella sijaitseva järvi?",
-      "vastaukset": ["Järvi Superior", "Kaspianmeri", "Välimerta", "Järvi Baikal"],
-      "oikea_vastaus": "Kaspianmeri"
+      "kysymys": "Missä osavaltiossa sijaitsee Grand Canyon?",
+      "vastaukset": [ "Arizona", "Nevada", "California", "Colorado" ],
+      "oikea_vastaus": "Arizona"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on maailman kuivin asuttu paikka?",
-      "vastaukset": ["Atacama-aavikko", "Sahara", "Gobi-aavikko", "Kalaharin aavikko"],
-      "oikea_vastaus": "Atacama-aavikko"
+      "vastaukset": [ "Atacama", "Sahara", "Gobi", "Kalahari" ],
+      "oikea_vastaus": "Atacama"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
-      "kysymys": "Mikä on maailman suurin saari Australiassa?",
-      "vastaukset": ["Tasmania", "Kangaroo Island", "Groote Eylandt", "Fraser Island"],
+      "kysymys": "Mikä on Australian suurin saari?",
+      "vastaukset": [ "Tasmania", "Kangaroo Island", "Groote Eylandt", "Fraser Island" ],
       "oikea_vastaus": "Tasmania"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Missä maassa sijaitsee Gibraltarinsalmi?",
-      "vastaukset": ["Marokko", "Espanja", "Algeria", "Portugali"],
+      "vastaukset": [ "Marokko", "Espanja", "Algeria", "Portugali" ],
       "oikea_vastaus": "Espanja"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on maailman suurin saari, joka sijaitsee mannerjään päällä?",
-      "vastaukset": ["Grönlanti", "Islanti", "Kreeta", "Madagaskar"],
+      "vastaukset": [ "Grönlanti", "Islanti", "Kreeta", "Madagaskar" ],
       "oikea_vastaus": "Grönlanti"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on maailman syvin laakso?",
-      "vastaukset": ["Grand Canyon", "Yosemiten laakso", "Chamonixin laakso", "Mariana-haudan laakso"],
+      "vastaukset": [ "Grand Canyon", "Yosemiten laakso", "Chamonixin laakso", "Mariana-haudan laakso" ],
       "oikea_vastaus": "Mariana-haudan laakso"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä maa tunnetaan nimellä 'Tuhat saarta'?",
-      "vastaukset": ["Japani", "Filippiinit", "Indonesia", "Malesia"],
+      "vastaukset": [ "Japani", "Filippiinit", "Indonesia", "Malesia" ],
       "oikea_vastaus": "Indonesia"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Missä maassa sijaitsee Suezin kanava?",
-      "vastaukset": ["Egypti", "Sudan", "Libya", "Saudi-Arabia"],
+      "vastaukset": [ "Egypti", "Sudan", "Libya", "Saudi-Arabia" ],
       "oikea_vastaus": "Egypti"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on maailman suurin tulivuori?",
-      "vastaukset": ["Kilauea", "Mount St. Helens", "Mauna Loa", "Vesuvius"],
+      "vastaukset": [ "Kilauea", "Mount St. Helens", "Mauna Loa", "Vesuvius" ],
       "oikea_vastaus": "Mauna Loa"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Missä maassa sijaitsee Timbuktun kaupunki?",
-      "vastaukset": ["Ghana", "Nigeria", "Mali", "Togo"],
+      "vastaukset": [ "Ghana", "Nigeria", "Mali", "Togo" ],
       "oikea_vastaus": "Mali"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
-      "kysymys": "Mikä on maailman korkein vuori Euroopassa?",
-      "vastaukset": ["K2", "Mount Elbrus", "Mont Blanc", "Dufourspitze"],
+      "kysymys": "Mikä on Euroopan korkein vuori?",
+      "vastaukset": [ "K2", "Mount Elbrus", "Mont Blanc", "Dufourspitze" ],
       "oikea_vastaus": "Mount Elbrus"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Missä maassa sijaitsee Angkor Watin temppelikompleksi?",
-      "vastaukset": ["Kambodža", "Thaimaa", "Indonesia", "Laos"],
+      "vastaukset": [ "Kambodža", "Thaimaa", "Indonesia", "Laos" ],
       "oikea_vastaus": "Kambodža"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
-      "kysymys": "Mikä on maailman syvin järvi Etelä-Amerikassa?",
-      "vastaukset": ["Baikal-järvi", "Järvi Superior", "Titicaca-järvi", "Ontario-järvi"],
+      "kysymys": "Mikä on Etelä-Amerikan syvin järvi?",
+      "vastaukset": [ "Baikal-järvi", "Superior-järvi", "Titicaca-järvi", "Ontario-järvi" ],
       "oikea_vastaus": "Titicaca-järvi"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Missä maassa sijaitsee Victoria Falls -vesiputous?",
-      "vastaukset": ["Kenia", "Sambia", "Zimbabwe", "Tansania"],
+      "vastaukset": [ "Kenia", "Sambia", "Zimbabwe", "Tansania" ],
       "oikea_vastaus": "Zimbabwe"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Missä maassa sijaitsee Ulan Bator, maailman kylmin pääkaupunki?",
-      "vastaukset": ["Kiina", "Mongolia", "Venäjä", "Kazakstan"],
+      "vastaukset": [ "Kiina", "Mongolia", "Venäjä", "Kazakstan" ],
       "oikea_vastaus": "Mongolia"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman syvin kohta Challengerin syvyydessä?",
-      "vastaukset": ["10,994 metriä", "12,345 metriä", "11,034 metriä", "9,874 metriä"],
-      "oikea_vastaus": "10,994 metriä"
+      "kysymys": "Kuinka syvä on maailman syvin kohta Challengerin syvänne?",
+      "vastaukset": [ "10,994 metriä", "12,345 metriä", "11,034 metriä", "9,874 metriä" ],
+      "oikea_vastaus": "11,034 metriä"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Missä maassa sijaitsee El Aaiún, Länsi-Saharan suurin kaupunki?",
-      "vastaukset": ["Marokko", "Algeria", "Mauritania", "Länsi-Sahara"],
+      "vastaukset": [ "Marokko", "Algeria", "Mauritania", "Länsi-Sahara" ],
       "oikea_vastaus": "Marokko"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on maailman suurin jäätikköalue?",
-      "vastaukset": ["Antarktis", "Grönlanti", "Siperian jäätikkö", "Alpit"],
+      "vastaukset": [ "Antarktis", "Grönlanti", "Siperian jäätikkö", "Alpit" ],
       "oikea_vastaus": "Antarktis"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on maailman syvin makean veden järvi?",
-      "vastaukset": ["Baikal-järvi", "Järvi Superior", "Titicaca-järvi", "Ontario-järvi"],
+      "vastaukset": [ "Baikal-järvi", "Superior-järvi", "Titicaca-järvi", "Ontario-järvi" ],
       "oikea_vastaus": "Baikal-järvi"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Missä maassa sijaitsee Maailmanperintökohde Petra?",
-      "vastaukset": ["Jordania", "Israel", "Syyria", "Libanon"],
+      "vastaukset": [ "Jordania", "Israel", "Syyria", "Libanon" ],
       "oikea_vastaus": "Jordania"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Kuinka monta valtiota Afrikassa on yhteensä?",
-      "vastaukset": ["42", "54", "63", "72"],
+      "vastaukset": [ "42", "54", "63", "72" ],
       "oikea_vastaus": "54"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Missä maassa sijaitsee Timorin saari?",
-      "vastaukset": ["Indonesia", "Malesia", "Australia", "Itä-Timor"],
+      "vastaukset": [ "Indonesia", "Malesia", "Australia", "Itä-Timor" ],
       "oikea_vastaus": "Itä-Timor"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on maailman suurin saari, joka sijaitsee valtiolla, joka ei ole saari?",
-      "vastaukset": ["Madagaskar", "Borneo", "Grönlanti", "Sumatra"],
+      "vastaukset": [ "Madagaskar", "Borneo", "Grönlanti", "Sumatra" ],
       "oikea_vastaus": "Sumatra"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
-      "kysymys": "Mikä on maailman syvin järvi Yhdysvalloissa?",
-      "vastaukset": ["Järvi Superior", "Michigan-järvi", "Huron-järvi", "Okeaniallinen"],
-      "oikea_vastaus": "Järvi Superior"
+      "kysymys": "Mikä on Yhdysvaltojen syvin järvi?",
+      "vastaukset": [ "Superior-järvi", "Michigan-järvi", "Huron-järvi", "Okeaniallinen" ],
+      "oikea_vastaus": "Superior-järvi"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Kuinka monta prosenttia maailman makeasta vedestä on jäätiköissä?",
-      "vastaukset": ["8%", "15%", "25%", "34%"],
+      "vastaukset": [ "68%", "15%", "25%", "34%" ],
       "oikea_vastaus": "68%"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on maailman suurin mantereella sijaitseva järvi?",
-      "vastaukset": ["Järvi Superior", "Kaspianmeri", "Välimerta", "Järvi Baikal"],
+      "vastaukset": [ "Superior-järvi", "Kaspianmeri", "Välimeri", "Baikal-järvi" ],
       "oikea_vastaus": "Kaspianmeri"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Missä maassa sijaitsee Maailmanperintökohde Machu Picchu?",
-      "vastaukset": ["Meksiko", "Brasilia", "Peru", "Kolumbia"],
+      "vastaukset": [ "Meksiko", "Brasilia", "Peru", "Kolumbia" ],
       "oikea_vastaus": "Peru"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Kuinka monta valtiota Euroopassa on yhteensä?",
-      "vastaukset": ["32", "44", "51", "58"],
+      "vastaukset": [ "32", "44", "51", "58" ],
       "oikea_vastaus": "44"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on maailman korkein tulivuori?",
-      "vastaukset": ["Kilauea", "Mount St. Helens", "Mauna Loa", "Olympus Mons"],
+      "vastaukset": [ "Kilauea", "Mount St. Helens", "Mauna Loa", "Olympus Mons" ],
       "oikea_vastaus": "Olympus Mons"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Missä maassa sijaitsee Taklamakanin aavikko?",
-      "vastaukset": ["Kiina", "Mongolia", "Kazakstan", "Afganistan"],
+      "vastaukset": [ "Kiina", "Mongolia", "Kazakstan", "Afganistan" ],
       "oikea_vastaus": "Kiina"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Kuinka monta prosenttia maailman väestöstä asuu Aasiassa?",
-      "vastaukset": ["32%", "45%", "60%", "72%"],
+      "vastaukset": [ "32%", "45%", "60%", "72%" ],
       "oikea_vastaus": "60%"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on maailman suurin niemimaa?",
-      "vastaukset": ["Skandinavian niemimaa", "Iberian niemimaa", "Kamtšatkan niemimaa", "Alaskan niemimaa"],
+      "vastaukset": [ "Skandinavian niemimaa", "Iberian niemimaa", "Kamtšatkan niemimaa", "Alaskan niemimaa" ],
       "oikea_vastaus": "Iberian niemimaa"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Mikä on maailman syvin kaivanto, joka ei ole valtameressä?",
-      "vastaukset": ["Suurin hauta", "Siperian kaivanto", "Pohjoinen kaivanto", "Meksikonlahti"],
+      "vastaukset": [ "Suurin hauta", "Siperian kaivanto", "Pohjoinen kaivanto", "Meksikonlahti" ],
       "oikea_vastaus": "Siperian kaivanto"
     },
     {
       "kategoria": "maantieto",
       "vaikeusaste": "vaikea",
       "kysymys": "Missä maassa sijaitsee Atacama-aavikko?",
-      "vastaukset": ["Peru", "Bolivia", "Chile", "Argentiina"],
+      "vastaukset": [ "Peru", "Bolivia", "Chile", "Argentiina" ],
       "oikea_vastaus": "Chile"
     }
   ]
