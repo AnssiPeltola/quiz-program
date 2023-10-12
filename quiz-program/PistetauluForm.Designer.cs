@@ -30,6 +30,7 @@
         {
             this.aloitusvalikkoonNappi = new System.Windows.Forms.Button();
             this.tuloksetLabel = new System.Windows.Forms.Label();
+            this.pisteetLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // aloitusvalikkoonNappi
@@ -51,11 +52,21 @@
             this.tuloksetLabel.TabIndex = 1;
             this.tuloksetLabel.Text = "Tulokset";
             // 
+            // pisteetLabel
+            // 
+            this.pisteetLabel.AutoSize = true;
+            this.pisteetLabel.Location = new System.Drawing.Point(355, 80);
+            this.pisteetLabel.Name = "pisteetLabel";
+            this.pisteetLabel.Size = new System.Drawing.Size(58, 20);
+            this.pisteetLabel.TabIndex = 2;
+            this.pisteetLabel.Text = "Pisteet";
+            // 
             // PistetauluForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pisteetLabel);
             this.Controls.Add(this.tuloksetLabel);
             this.Controls.Add(this.aloitusvalikkoonNappi);
             this.Name = "PistetauluForm";
@@ -70,5 +81,6 @@
 
         private System.Windows.Forms.Button aloitusvalikkoonNappi;
         private System.Windows.Forms.Label tuloksetLabel;
+        private System.Windows.Forms.Label pisteetLabel;
     }
 }

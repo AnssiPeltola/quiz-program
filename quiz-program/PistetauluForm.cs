@@ -63,15 +63,18 @@ namespace quiz_program
                 // Printtaa 10 parasta pelaajanimeä ja tulosta, \r\n on rivinvaihto
                 int i = 1;
                 string rivi = "";
+                string pisteet = "";
                 foreach (var score in scores)
                 {
                     Console.WriteLine($"{score.Item1} {score.Item2}");
                     //rivi = rivi +  i + ". " + score.Item1 + " " + score.Item2 + "\r\n";
-                    rivi = rivi + i + ". " + score.Item1.PadRight(20) + score.Item2 + "\r\n";
+                    rivi = rivi + i + ". " + score.Item1 + "\r\n";
+                    pisteet = pisteet + score.Item2 + "\r\n";
                     i++;
                     if (i > 10)
                     {
                         tuloksetLabel.Text = rivi;
+                        pisteetLabel.Text = pisteet;
                         break;
                     }
                 }
