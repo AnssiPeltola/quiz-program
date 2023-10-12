@@ -18,6 +18,7 @@ namespace quiz_program
         int pisteet; // Counter for the correct answers
         int virheet; // Counter for the wrong answers
         int remainingTime = 30; // Set the initial time to 30 seconds
+        string selectedDifficulty;
 
         public PeliForm(string pelaajaNimi, string kategoria)
         {
@@ -28,6 +29,7 @@ namespace quiz_program
             this.questions = questionRoot.Questions; // Assign questions to class-level variable
             this.pelaajaNimi = pelaajaNimi;
             this.kategoria = kategoria;
+            this.selectedDifficulty = "helppo";
         }
 
         private void PeliForm_Load(object sender, EventArgs e)
@@ -36,17 +38,17 @@ namespace quiz_program
             pisteet = 0;
             virheet = 0;
 
-            string selectedCategory = kategoria;
+            // string selectedCategory = kategoria;
             timer1.Enabled = true; // Starts timer
 
             // Filter questions by selected category
-            if (selectedCategory == "kaikki")
+            if (kategoria == "kaikki")
             {
-                filteredQuestions = questions;
+                filteredQuestions = questions.Where(q => q.Vaikeusaste == selectedDifficulty).ToList();
             }
             else
             {
-                filteredQuestions = questions.Where(q => q.Kategoria == selectedCategory).ToList();
+                filteredQuestions = questions.Where(q => q.Kategoria == kategoria && q.Vaikeusaste == selectedDifficulty).ToList();
             }
 
             if (filteredQuestions.Count == 0)
@@ -125,11 +127,50 @@ namespace quiz_program
             }
             else
             {
+                TarkistaVaikeusaste();
                 // Move to the next question
                 NextQuestion();
                 // After prompt resets timer back to 30 sec
                 ResetTimer();
             }
+        }
+
+        private void TarkistaVaikeusaste()
+        {
+            // Check if it's time to change difficulty
+            if (pisteet % 10 == 0 && selectedDifficulty != "vaikea")
+            {
+                // Change difficulty based on questions answered
+                if (pisteet < 10)
+                {
+                    selectedDifficulty = "helppo";
+                }
+                else if (pisteet < 20)
+                {
+                    selectedDifficulty = "keskivaikea";
+                }
+                else
+                {
+                    selectedDifficulty = "vaikea";
+                }
+
+                // Filter questions by selected category
+                if (kategoria == "kaikki")
+                {
+                    filteredQuestions = questions.Where(q => q.Vaikeusaste == selectedDifficulty).ToList();
+                }
+                else
+                {
+                    filteredQuestions = questions.Where(q => q.Kategoria == kategoria && q.Vaikeusaste == selectedDifficulty).ToList();
+                }
+
+                if (filteredQuestions.Count == 0)
+                {
+                    MessageBox.Show("No questions found in the selected category.");
+                    return;
+                }
+            }
+            
         }
 
         private void ClearAnswerButtons()
