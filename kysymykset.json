@@ -197,6 +197,20 @@
     },
     {
       "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on perusyksikkö, jolla mitataan sähkön resistanssia?",
+      "vastaukset": ["Amppeeri", "Ohmi", "Voltti", "Watti"],
+      "oikea_vastaus": "Ohmi"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "helppo",
+      "kysymys": "Mikä on tunnettu avaruuden ilmiö, joka syntyy, kun suuri tähti räjähtää?",
+      "vastaukset": ["Musta aukko", "Komeetta", "Supernova", "Kuunsirppi"],
+      "oikea_vastaus": "Supernova"
+    },
+    {
+      "kategoria": "tiede",
       "vaikeusaste": "keskivaikea",
       "kysymys": "Mikä on Heisenbergin epätarkkuusperiaate?",
       "vastaukset": [
@@ -446,6 +460,18 @@
         "Teoriat suurista voimista"
       ],
       "oikea_vastaus": "Teoriat suurista yhtenäisistä hiukkasista"
+    },
+    {
+      "kategoria": "tiede",
+      "vaikeusaste": "vaikea",
+      "kysymys": "Mikä on Planckin yksikkö, ja mihin sitä käytetään?",
+      "vastaukset": [
+      "Se on perusyksikkö, jolla mitataan massaa",
+      "Se on pienin tunnettu ajan yksikkö",
+      "Se on perusyksikkö, jolla mitataan energian määrää",
+      "Se on yksikkö, joka kuvaa äänenvoimakkuutta"
+      ],
+      "oikea_vastaus": "Se on perusyksikkö, jolla mitataan energian määrää"
     },
     {
       "kategoria": "tiede",
